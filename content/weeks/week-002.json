@@ -1,0 +1,524 @@
+{
+  "id": "week-002",
+  "number": 2,
+  "title": "Honor, Shame, and the Warrior Ethic",
+  "difficultyBand": "Master's level",
+  "centralQuestion": "When does honor discipline courage, and when does it enslave it?",
+  "coreConcepts": [
+    "honor",
+    "shame",
+    "valor",
+    "wrath",
+    "nobility",
+    "restraint"
+  ],
+  "lessons": {
+    "core": {
+      "title": "The Double Edge of Honor",
+      "body": "Honor is public memory attached to character. It gives courage a stage and cowardice a cost. In Homer, warriors live beneath the gaze of comrades, ancestors, and gods. The gaze can elevate. It can also trap a man inside his reputation until he mistakes insult for injustice.\n\nThe warrior ethic therefore contains a permanent ambiguity. A culture without honor produces softness and forgetfulness. A culture ruled only by honor produces vendetta, vanity, and needless death. Achilles is not contemptible because he desires honor; he is dangerous because honor becomes indistinguishable from wrath.\n\nThe Western tradition keeps returning to this problem because every institution has its own code of honor. Armies, courts, universities, parties, and companies all reward certain gestures and punish certain humiliations. Leadership requires knowing when honor protects excellence and when it merely defends pride."
+    },
+    "miniEssay": {
+      "title": "Shame as Tutor and Tyrant",
+      "body": "Shame can educate the soul by making failure visible. A young officer who feels shame after cowardice may become brave. A public servant ashamed of corruption may recover his office's dignity. Yet shame can also become theatrical. It may drive men to conceal error, avenge slight, or choose appearance over truth.\n\nClassical literature rarely treats shame as a simple evil. It is too close to conscience for that. But it must be governed by judgment. The question is not whether one should care about reputation. The question is whether reputation serves the good or replaces it."
+    },
+    "synthesisEssay": {
+      "title": "Courage Under Form",
+      "body": "Honor, shame, and valor become humane only when ruled by proportion. Homeric courage becomes tragic when it cannot listen. Roman discipline becomes noble when it joins public service to self-command. Modern leadership faces the same contest in quieter clothing: the angry resignation, the public denunciation, the refusal to admit error.\n\nHonor should make a person answerable to excellence. Shame should recall the soul from degradation. Valor should act despite fear. Wrath should never be allowed to pretend that it is justice. The warrior ethic reaches maturity when courage can kneel before truth without feeling dishonored."
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "honor",
+      "term": "honor",
+      "definition": "Publicly recognized worth attached to conduct and character.",
+      "etymology": "From Latin honor, esteem, office, or dignity.",
+      "example": "He defended honor by admitting fault rather than concealing it.",
+      "historicalAnchor": "Roman aristocrats pursued dignitas as public standing earned through service.",
+      "literaryAnchor": "Homeric heroes fight beneath the demand of remembered honor.",
+      "philosophicalAnchor": "Aristotle treats honor as a serious but incomplete external good.",
+      "synonyms": [
+        "dignity"
+      ],
+      "antonyms": [
+        "disgrace"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "shame",
+      "term": "shame",
+      "definition": "Pain before dishonor, failure, or exposed unworthiness.",
+      "etymology": "From Old English scamu, disgrace or modesty.",
+      "example": "Shame became useful when it forced correction rather than concealment.",
+      "historicalAnchor": "Honor cultures use shame to enforce courage and loyalty.",
+      "literaryAnchor": "Ajax is destroyed by unbearable disgrace.",
+      "philosophicalAnchor": "Ethics distinguishes educative shame from servile fear of opinion.",
+      "synonyms": [
+        "disgrace"
+      ],
+      "antonyms": [
+        "esteem"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "valor",
+      "term": "valor",
+      "definition": "Courage displayed in the face of danger.",
+      "etymology": "From Latin valere, to be strong or worthy.",
+      "example": "Valor held the line after confidence had vanished.",
+      "historicalAnchor": "Battlefield valor often became the raw material of civic memory.",
+      "literaryAnchor": "Hector's valor is sharpened by duty to Troy.",
+      "philosophicalAnchor": "Courage is not fearlessness but right action amid fear.",
+      "synonyms": [
+        "bravery"
+      ],
+      "antonyms": [
+        "cowardice"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "wrath",
+      "term": "wrath",
+      "definition": "Intense anger seeking redress or destruction.",
+      "etymology": "From Old English wraththu, anger or fury.",
+      "example": "His wrath made a private insult into public policy.",
+      "historicalAnchor": "Vendetta politics turns wrath into inherited disorder.",
+      "literaryAnchor": "The Iliad opens with Achilles' wrath.",
+      "philosophicalAnchor": "Moral psychology asks when anger serves justice and when it masters reason.",
+      "synonyms": [
+        "fury"
+      ],
+      "antonyms": [
+        "composure"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "nobility",
+      "term": "nobility",
+      "definition": "Excellence of character or rank ordered toward high conduct.",
+      "etymology": "From Latin nobilis, knowable, renowned, or high-born.",
+      "example": "Nobility appeared when victory refused cruelty.",
+      "historicalAnchor": "Aristocratic codes linked privilege to public expectation.",
+      "literaryAnchor": "Hector's nobility lies in duty without illusion.",
+      "philosophicalAnchor": "Classical ethics asks whether noble action is worthy in itself.",
+      "synonyms": [
+        "excellence"
+      ],
+      "antonyms": [
+        "baseness"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "restraint",
+      "term": "restraint",
+      "definition": "The disciplined refusal to act from impulse.",
+      "etymology": "From Latin restringere, to bind back.",
+      "example": "Restraint made the apology more powerful than retaliation.",
+      "historicalAnchor": "Military discipline converts force into reliable command.",
+      "literaryAnchor": "Odysseus' restraint contrasts with Achilles' fury.",
+      "philosophicalAnchor": "Self-rule is the inward condition of outward command.",
+      "synonyms": [
+        "self-command"
+      ],
+      "antonyms": [
+        "impulse"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "dignitas",
+      "term": "dignitas",
+      "definition": "Roman public standing grounded in rank, service, and reputation.",
+      "etymology": "Latin dignitas, worthiness or dignity.",
+      "example": "He guarded dignitas by acting as though office imposed a debt.",
+      "historicalAnchor": "Roman nobles competed for dignitas through offices and military service.",
+      "literaryAnchor": "Coriolanus cannot separate dignitas from contempt.",
+      "philosophicalAnchor": "Political ethics tests whether reputation serves virtue or vanity.",
+      "synonyms": [
+        "standing"
+      ],
+      "antonyms": [
+        "ignominy"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "kleos",
+      "term": "kleos",
+      "definition": "Greek heroic glory carried by song and memory.",
+      "etymology": "From Greek kleos, fame or renown heard by others.",
+      "example": "Kleos tempted him to prefer a brilliant death to obscure duty.",
+      "historicalAnchor": "Heroic cultures preserve deeds through praise poetry.",
+      "literaryAnchor": "Achilles chooses short life and imperishable kleos.",
+      "philosophicalAnchor": "The desire for remembrance exposes the tension between mortality and meaning.",
+      "synonyms": [
+        "renown"
+      ],
+      "antonyms": [
+        "oblivion"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "ignominy",
+      "term": "ignominy",
+      "definition": "Public disgrace or deep dishonor.",
+      "etymology": "From Latin ignominia, loss of name or reputation.",
+      "example": "The defeat was painful; the betrayal brought ignominy.",
+      "historicalAnchor": "Public punishments often aimed at name and memory as much as body.",
+      "literaryAnchor": "Tragic heroes dread ignominy because it outlives pain.",
+      "philosophicalAnchor": "Reputation matters morally when it reflects real disorder.",
+      "synonyms": [
+        "infamy"
+      ],
+      "antonyms": [
+        "honor"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "magnificence",
+      "term": "magnificence",
+      "definition": "Greatness expressed through splendid and fitting action.",
+      "etymology": "From Latin magnus, great, and facere, to make.",
+      "example": "The funeral had magnificence without vanity.",
+      "historicalAnchor": "Public buildings displayed civic magnificence and political claim.",
+      "literaryAnchor": "Epic scenes use magnificence to disclose rank and destiny.",
+      "philosophicalAnchor": "Aristotle treats magnificence as proper greatness in expenditure and display.",
+      "synonyms": [
+        "splendor"
+      ],
+      "antonyms": [
+        "meanness"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "passage": {
+    "title": "A Warrior Before the Gates",
+    "body": "The warrior stands before the gates with two enemies: the foe outside the wall and the disordered passion within his breast. Fear counsels flight; rage counsels frenzy. Honor calls him to remain, but honor itself must be examined, for it may serve duty or merely defend a wounded name. The brave man does not forget fear. He gives fear its proper size. Nor does he worship anger. He knows that anger can wear the armor of justice while secretly serving pride.\n\nIn the heroic world, every deed is performed beneath the gaze of comrades, ancestors, women, children, and gods. Such a gaze can make the coward ashamed and the noble steadfast. It can also trap the warrior inside the theater of reputation. The mature fighter must therefore distinguish glory from vanity, courage from exhibition, and shame from moral knowledge. He does not fight because he loves death. He fights because some goods are too high to be surrendered to fear, and too serious to be entrusted to wrath."
+  },
+  "historicalParallel": {
+    "title": "Roman Dignitas",
+    "body": "Roman aristocratic life turned reputation into a public instrument. Dignitas was more than vanity; it named the accumulated standing of a family and statesman, earned through office, military service, ancestry, patronage, and visible sacrifice. A noble who lost dignitas lost political force. A noble who pursued it without measure could drag the Republic into vendetta.\n\nThis helps explain why late republican conflict became so explosive. Men such as Marius, Sulla, Pompey, Caesar, Cato, and Cicero did not think of reputation as a private luxury. They saw public honor as inseparable from authority. Insult, prosecution, exile, or exclusion from office could appear not merely inconvenient but intolerable. The Roman honor code produced endurance, courage, and service, yet it also made compromise difficult when dignity seemed at stake. A republic needs citizens who care about honor; it also needs them to survive humiliation without turning the commonwealth into an arena of revenge."
+  },
+  "leadershipCase": {
+    "title": "The Insulted Captain",
+    "body": "A captain is publicly blamed for a failure caused by another unit. Retaliation would restore face but fracture command. Silence would preserve order but reward falsehood. The disciplined answer seeks correction without theatrical vengeance."
+  },
+  "rhetoricInsight": {
+    "title": "Chiasmus",
+    "body": "Chiasmus reverses structure to sharpen judgment: one should not live for honor, but honor how one lives. It is useful for exposing mistaken priorities."
+  },
+  "retrievalBrief": "Retrieve honor terms by asking whether the actor seeks excellence, reputation, revenge, or correction.",
+  "scenarios": {
+    "modern": [
+      {
+        "id": "m1",
+        "prompt": "A manager refuses to admit an error because rivals will enjoy it.",
+        "bestConcept": "shame",
+        "distractors": [
+          "valor",
+          "magnificence",
+          "kleos"
+        ],
+        "rationale": "Shame has become concealment rather than correction."
+      },
+      {
+        "id": "m2",
+        "prompt": "A public official accepts blame to preserve institutional trust.",
+        "bestConcept": "honor",
+        "distractors": [
+          "wrath",
+          "ignominy",
+          "kleos"
+        ],
+        "rationale": "Honor is preserved by truthful responsibility."
+      },
+      {
+        "id": "m3",
+        "prompt": "A team leader delays an angry reply until facts are known.",
+        "bestConcept": "restraint",
+        "distractors": [
+          "valor",
+          "dignitas",
+          "magnificence"
+        ],
+        "rationale": "Self-command prevents reputational injury from ruling action."
+      },
+      {
+        "id": "m4",
+        "prompt": "A candidate seeks viral fame through reckless confrontation.",
+        "bestConcept": "kleos",
+        "distractors": [
+          "nobility",
+          "restraint",
+          "valor"
+        ],
+        "rationale": "The desire for renown displaces judgment."
+      },
+      {
+        "id": "m5",
+        "prompt": "A whistleblower risks career to expose danger.",
+        "bestConcept": "valor",
+        "distractors": [
+          "wrath",
+          "shame",
+          "ignominy"
+        ],
+        "rationale": "Courage acts despite danger for a serious good."
+      }
+    ],
+    "historical": [
+      {
+        "id": "h1",
+        "prompt": "A Roman noble treats lost public standing as worse than exile.",
+        "bestConcept": "dignitas",
+        "distractors": [
+          "temperance",
+          "prudence",
+          "apathy"
+        ],
+        "rationale": "Public worth and rank govern the action."
+      },
+      {
+        "id": "h2",
+        "prompt": "A warrior culture preserves names through song.",
+        "bestConcept": "kleos",
+        "distractors": [
+          "ignominy",
+          "restraint",
+          "shame"
+        ],
+        "rationale": "Fame is carried by memory."
+      },
+      {
+        "id": "h3",
+        "prompt": "A defeated commander is paraded to destroy his name.",
+        "bestConcept": "ignominy",
+        "distractors": [
+          "honor",
+          "nobility",
+          "valor"
+        ],
+        "rationale": "The punishment aims at disgrace."
+      },
+      {
+        "id": "h4",
+        "prompt": "A general refuses to sack a city after surrender.",
+        "bestConcept": "nobility",
+        "distractors": [
+          "wrath",
+          "shame",
+          "kleos"
+        ],
+        "rationale": "High conduct restrains victory."
+      },
+      {
+        "id": "h5",
+        "prompt": "A legion holds formation under pressure.",
+        "bestConcept": "restraint",
+        "distractors": [
+          "frenzy",
+          "ignominy",
+          "vanity"
+        ],
+        "rationale": "Discipline binds impulse."
+      }
+    ],
+    "literary": [
+      {
+        "id": "l1",
+        "prompt": "Achilles withdraws from battle after insult.",
+        "bestConcept": "wrath",
+        "distractors": [
+          "nobility",
+          "restraint",
+          "magnificence"
+        ],
+        "rationale": "Anger converts honor into destructive refusal."
+      },
+      {
+        "id": "l2",
+        "prompt": "Hector returns to battle though he foresees Troy's danger.",
+        "bestConcept": "valor",
+        "distractors": [
+          "ignominy",
+          "apathy",
+          "expediency"
+        ],
+        "rationale": "Duty and courage govern him."
+      },
+      {
+        "id": "l3",
+        "prompt": "Ajax cannot survive disgrace.",
+        "bestConcept": "shame",
+        "distractors": [
+          "magnificence",
+          "prudence",
+          "counsel"
+        ],
+        "rationale": "Disgrace becomes tyrannical."
+      },
+      {
+        "id": "l4",
+        "prompt": "Coriolanus cannot bend before common citizens.",
+        "bestConcept": "dignitas",
+        "distractors": [
+          "restraint",
+          "humility",
+          "temperance"
+        ],
+        "rationale": "Status and honor harden into contempt."
+      },
+      {
+        "id": "l5",
+        "prompt": "A hero spares a defeated enemy in full view of the army.",
+        "bestConcept": "magnificence",
+        "distractors": [
+          "wrath",
+          "ignominy",
+          "kleos"
+        ],
+        "rationale": "Splendid action displays proportion."
+      }
+    ]
+  },
+  "argumentDuels": [
+    {
+      "id": "duel1",
+      "claimA": "Honor always improves courage.",
+      "claimB": "Honor improves courage only when governed by judgment.",
+      "stronger": "B",
+      "criteria": [
+        "precision",
+        "literary fit",
+        "philosophical balance"
+      ]
+    },
+    {
+      "id": "duel2",
+      "claimA": "Shame is merely oppressive.",
+      "claimB": "Shame can educate or tyrannize depending on its object.",
+      "stronger": "B",
+      "criteria": [
+        "distinction",
+        "historical fit",
+        "rhetorical force"
+      ]
+    }
+  ],
+  "crosswords": [
+    {
+      "id": "cw1",
+      "title": "Heroic Memory",
+      "size": 7,
+      "entries": [
+        {
+          "term": "honor",
+          "clue": "Public worth",
+          "row": 0,
+          "col": 0,
+          "direction": "across"
+        },
+        {
+          "term": "shame",
+          "clue": "Pain before disgrace",
+          "row": 0,
+          "col": 0,
+          "direction": "down"
+        }
+      ]
+    },
+    {
+      "id": "cw2",
+      "title": "Courage and Control",
+      "size": 7,
+      "entries": [
+        {
+          "term": "valor",
+          "clue": "Courage in danger",
+          "row": 1,
+          "col": 0,
+          "direction": "across"
+        },
+        {
+          "term": "wrath",
+          "clue": "Fury seeking redress",
+          "row": 0,
+          "col": 2,
+          "direction": "down"
+        }
+      ]
+    }
+  ],
+  "clozeTests": [
+    {
+      "id": "cloze1",
+      "body": "{{Honor}} should make courage answerable to excellence, not vanity.",
+      "answers": [
+        {
+          "blank": "Honor",
+          "accepted": [
+            "honor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloze2",
+      "body": "{{Wrath}} can wear the armor of courage while serving only pride.",
+      "answers": [
+        {
+          "blank": "Wrath",
+          "accepted": [
+            "wrath"
+          ]
+        }
+      ]
+    }
+  ],
+  "conceptConstellation": {
+    "center": "Honor",
+    "near": [
+      "valor",
+      "nobility",
+      "dignitas"
+    ],
+    "tension": [
+      "wrath",
+      "shame",
+      "kleos"
+    ],
+    "corrective": [
+      "restraint",
+      "judgment",
+      "duty",
+      "truth"
+    ]
+  },
+  "conceptBracket": {
+    "id": "bracket2",
+    "concepts": [
+      "honor",
+      "shame",
+      "valor",
+      "wrath",
+      "nobility",
+      "restraint",
+      "dignitas",
+      "kleos"
+    ],
+    "roundPrompts": [
+      "Which concept best elevates courage?",
+      "Which most endangers judgment?",
+      "Which should govern heroic action?"
+    ],
+    "modelWinner": "restraint",
+    "rationale": "Restraint keeps honor from becoming vanity and courage from becoming frenzy."
+  }
+}

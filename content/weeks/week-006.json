@@ -1,0 +1,524 @@
+{
+  "id": "week-006",
+  "number": 6,
+  "title": "Stoicism Under Pressure",
+  "difficultyBand": "Master's-to-doctoral bridge",
+  "centralQuestion": "What remains free when circumstance closes in?",
+  "coreConcepts": [
+    "stoicism",
+    "apatheia",
+    "logos",
+    "prohairesis",
+    "fortitude",
+    "equanimity"
+  ],
+  "lessons": {
+    "core": {
+      "title": "Freedom Within Constraint",
+      "body": "Stoicism is often mistaken for emotional numbness. Its actual discipline is more demanding: distinguish what belongs to choice from what belongs to fortune. Epictetus, Seneca, and Marcus Aurelius do not promise control over events. They train attention toward judgment, desire, aversion, and action.\n\nThis matters because pressure reveals false sovereignty. The angry leader thinks he is commanding others while being commanded by insult. The fearful citizen thinks he is prudent while being ruled by imagination. Stoicism teaches that external loss need not become inward servitude."
+    },
+    "miniEssay": {
+      "title": "The Discipline of Assent",
+      "body": "The Stoic does not control the first appearance of things. A rumor, insult, injury, or threat presents itself to the mind. Freedom begins at assent: the judgment that says this is unbearable, this is shameful, this must be avenged. To slow assent is to recover command.\n\nThis discipline is not passivity. It makes action cleaner. The person who is not enslaved by panic can see the next duty."
+    },
+    "synthesisEssay": {
+      "title": "Inward Rule",
+      "body": "Stoicism joins philosophy to leadership because both require government of the self before government of circumstance. History's imprisoned, exiled, and defeated figures often reveal whether doctrine has become character.\n\nLiterature also tests inward rule. A character may possess rank and yet be inwardly conquered. Another may lose office and remain free. The Stoic question is severe: what judgment has mastered you? The answer determines whether pressure becomes degradation or training."
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "stoicism",
+      "term": "stoicism",
+      "definition": "A philosophical discipline of living according to reason and virtue under fortune.",
+      "etymology": "From Greek stoa, the painted porch where Zeno taught.",
+      "example": "Her stoicism was active clarity, not indifference.",
+      "historicalAnchor": "Stoic thought shaped Roman elites under empire.",
+      "literaryAnchor": "Exile literature often dramatizes Stoic endurance.",
+      "philosophicalAnchor": "Stoicism locates freedom in judgment and virtue.",
+      "synonyms": [
+        "self-command"
+      ],
+      "antonyms": [
+        "servility"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "apatheia",
+      "term": "apatheia",
+      "definition": "Freedom from domination by destructive passions.",
+      "etymology": "From Greek a, without, and pathos, passion or suffering.",
+      "example": "Apatheia allowed him to hear criticism without humiliation.",
+      "historicalAnchor": "Roman Stoics cultivated composure amid imperial danger.",
+      "literaryAnchor": "The calm sufferer often exposes the tyrant's disorder.",
+      "philosophicalAnchor": "Apatheia is not apathy but rightly ordered passion.",
+      "synonyms": [
+        "composure"
+      ],
+      "antonyms": [
+        "agitation"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "logos",
+      "term": "logos",
+      "definition": "Reason, word, order, or intelligible structure.",
+      "etymology": "From Greek logos, speech, account, or reason.",
+      "example": "The policy had force but lacked logos.",
+      "historicalAnchor": "Hellenistic philosophy treated logos as rational order.",
+      "literaryAnchor": "Rhetoric depends on logos as reasoned appeal.",
+      "philosophicalAnchor": "Stoics saw the cosmos as ordered by logos.",
+      "synonyms": [
+        "reason"
+      ],
+      "antonyms": [
+        "irrationality"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "prohairesis",
+      "term": "prohairesis",
+      "definition": "Moral purpose or faculty of choice.",
+      "etymology": "From Greek prohairesis, deliberate choice.",
+      "example": "The prison could confine his body, not his prohairesis.",
+      "historicalAnchor": "Epictetus made prohairesis central to freedom.",
+      "literaryAnchor": "Captivity narratives often distinguish body from will.",
+      "philosophicalAnchor": "Choice reveals the moral person under pressure.",
+      "synonyms": [
+        "moral choice"
+      ],
+      "antonyms": [
+        "compulsion"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "fortitude",
+      "term": "fortitude",
+      "definition": "Strength of soul in pain, danger, or adversity.",
+      "etymology": "From Latin fortitudo, strength or bravery.",
+      "example": "Fortitude kept duty intact after prestige collapsed.",
+      "historicalAnchor": "Martyrs and prisoners often become icons of fortitude.",
+      "literaryAnchor": "Epic endurance gives fortitude a narrative form.",
+      "philosophicalAnchor": "Fortitude is courage extended through suffering.",
+      "synonyms": [
+        "endurance"
+      ],
+      "antonyms": [
+        "cowardice"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "equanimity",
+      "term": "equanimity",
+      "definition": "Evenness of mind under changing fortune.",
+      "etymology": "From Latin aequus, even, and animus, mind.",
+      "example": "Equanimity prevented triumph from becoming arrogance.",
+      "historicalAnchor": "Statesmen under crisis are judged by steadiness of mind.",
+      "literaryAnchor": "The calm counselor often sees what the frantic court misses.",
+      "philosophicalAnchor": "Equanimity expresses judgment unenslaved by externals.",
+      "synonyms": [
+        "steadiness"
+      ],
+      "antonyms": [
+        "panic"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "assent",
+      "term": "assent",
+      "definition": "The mind's agreement to an impression or claim.",
+      "etymology": "From Latin assentire, to feel or agree with.",
+      "example": "He refused assent to the thought that insult required revenge.",
+      "historicalAnchor": "Stoic training focused on impressions and assent.",
+      "literaryAnchor": "Temptation scenes dramatize assent before action.",
+      "philosophicalAnchor": "Freedom begins where judgment can approve or refuse appearance.",
+      "synonyms": [
+        "agreement"
+      ],
+      "antonyms": [
+        "refusal"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "externals",
+      "term": "externals",
+      "definition": "Goods outside moral choice, such as wealth, reputation, and health.",
+      "etymology": "From Latin externus, outward.",
+      "example": "He treated applause as an external, pleasant but not sovereign.",
+      "historicalAnchor": "Stoics advised rulers not to confuse office with virtue.",
+      "literaryAnchor": "Fortune's wheel strips externals from proud characters.",
+      "philosophicalAnchor": "Stoicism distinguishes externals from the good of virtue.",
+      "synonyms": [
+        "outward goods"
+      ],
+      "antonyms": [
+        "virtue"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "memento-mori",
+      "term": "memento mori",
+      "definition": "A reminder of mortality used to discipline judgment.",
+      "etymology": "Latin for remember that you must die.",
+      "example": "Memento mori made the quarrel appear small.",
+      "historicalAnchor": "Roman triumphs included reminders of mortal limit.",
+      "literaryAnchor": "Skull scenes force characters to remember death.",
+      "philosophicalAnchor": "Mortality clarifies what deserves fear.",
+      "synonyms": [
+        "death-reminder"
+      ],
+      "antonyms": [
+        "forgetfulness"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "ataraxia",
+      "term": "ataraxia",
+      "definition": "Tranquility or freedom from disturbance.",
+      "etymology": "From Greek a, without, and taraxis, disturbance.",
+      "example": "Ataraxia was not laziness but disciplined peace.",
+      "historicalAnchor": "Hellenistic schools sought tranquility amid political instability.",
+      "literaryAnchor": "Pastoral retreat often imagines ataraxia.",
+      "philosophicalAnchor": "Stoics and Epicureans valued tranquility through different routes.",
+      "synonyms": [
+        "tranquility"
+      ],
+      "antonyms": [
+        "disturbance"
+      ],
+      "difficulty": 4
+    }
+  ],
+  "passage": {
+    "title": "What Is Yours",
+    "body": "Do not begin with the storm. Begin with the judgment you make about the storm. Wind, insult, loss, illness, exile, and delay arrive from outside. They may wound the body, reduce the estate, alter reputation, or close a road. But they do not by themselves command the ruling center of the soul. Assent gives them a throne within.\n\nThe undisciplined mind adds a second injury to the first. It says: this must not have happened; this proves I am ruined; this insult requires revenge; this loss makes virtue useless. The Stoic exercise is not to pretend that pain is pleasant or injustice harmless. It is to separate the event from the judgment that enslaves. Once separated, duty becomes visible again. One may answer the accuser, tend the sick body, bury the dead, resist the tyrant, or endure the prison. The first freedom is not favorable circumstance. It is the refusal to let circumstance write the law of the soul."
+  },
+  "historicalParallel": {
+    "title": "Marcus Aurelius on Campaign",
+    "body": "Marcus Aurelius wrote much of what we call the Meditations while carrying the burdens of imperial rule, not while resting in philosophical retirement. His reign faced war along the Danube frontier, pressure from Germanic and Sarmatian peoples, administrative strain, succession anxieties, and the Antonine plague, which likely devastated population and military capacity across the empire.\n\nThis context matters. The Meditations are not decorative sayings from a comfortable moralist. They are exercises written by a ruler attempting to discipline perception amid fatigue, grief, and command. Marcus repeatedly reminds himself that fame is vapor, death is near, anger is weakness, and duty remains. He does not abolish empire, hierarchy, or coercive office; he tries to place them under reason. The historical tension is real: a Stoic philosopher sat at the summit of imperial power. His writings ask whether inward rule can survive outward command."
+  },
+  "leadershipCase": {
+    "title": "The Public Accusation",
+    "body": "A leader is falsely accused online. Immediate rage would feed the spectacle. Stoic discipline asks what is within choice: truth, timing, tone, and duty."
+  },
+  "rhetoricInsight": {
+    "title": "Maxim",
+    "body": "A maxim compresses judgment into memorable form: the obstacle is training. Stoic writing often uses maxims to make doctrine portable under stress."
+  },
+  "retrievalBrief": "Sort each pressure by what is external, what is judgment, what requires assent, and what duty remains.",
+  "scenarios": {
+    "modern": [
+      {
+        "id": "m1",
+        "prompt": "A leader pauses before answering an insult.",
+        "bestConcept": "assent",
+        "distractors": [
+          "externals",
+          "memento mori",
+          "logos"
+        ],
+        "rationale": "He delays agreement with the first impression."
+      },
+      {
+        "id": "m2",
+        "prompt": "A fired executive treats status loss as painful but not degrading.",
+        "bestConcept": "externals",
+        "distractors": [
+          "wrath",
+          "kleos",
+          "patronage"
+        ],
+        "rationale": "Rank is outward, not moral worth."
+      },
+      {
+        "id": "m3",
+        "prompt": "A crisis team remains steady during bad news.",
+        "bestConcept": "equanimity",
+        "distractors": [
+          "decadence",
+          "hamartia",
+          "nomos"
+        ],
+        "rationale": "Evenness of mind governs response."
+      },
+      {
+        "id": "m4",
+        "prompt": "A patient endures illness without surrendering duty.",
+        "bestConcept": "fortitude",
+        "distractors": [
+          "populism",
+          "desert",
+          "shame"
+        ],
+        "rationale": "Strength persists through suffering."
+      },
+      {
+        "id": "m5",
+        "prompt": "A person remembers death and abandons a petty feud.",
+        "bestConcept": "memento mori",
+        "distractors": [
+          "patronage",
+          "equity",
+          "catharsis"
+        ],
+        "rationale": "Mortality reorders importance."
+      }
+    ],
+    "historical": [
+      {
+        "id": "h1",
+        "prompt": "A Roman senator faces imperial threat with calm speech.",
+        "bestConcept": "apatheia",
+        "distractors": [
+          "clientelism",
+          "wrath",
+          "kleos"
+        ],
+        "rationale": "Passion does not dominate judgment."
+      },
+      {
+        "id": "h2",
+        "prompt": "Epictetus teaches that choice remains free under slavery.",
+        "bestConcept": "prohairesis",
+        "distractors": [
+          "oligarchy",
+          "nomos",
+          "honor"
+        ],
+        "rationale": "Moral choice remains inwardly free."
+      },
+      {
+        "id": "h3",
+        "prompt": "A ruler studies reason as order rather than impulse.",
+        "bestConcept": "logos",
+        "distractors": [
+          "pathos",
+          "wrath",
+          "decadence"
+        ],
+        "rationale": "Reason orders action."
+      },
+      {
+        "id": "h4",
+        "prompt": "A defeated army maintains discipline on retreat.",
+        "bestConcept": "fortitude",
+        "distractors": [
+          "ignominy",
+          "populism",
+          "clemency"
+        ],
+        "rationale": "Endurance under adversity dominates."
+      },
+      {
+        "id": "h5",
+        "prompt": "A philosopher seeks tranquility amid civil disorder.",
+        "bestConcept": "ataraxia",
+        "distractors": [
+          "retribution",
+          "patronage",
+          "hubris"
+        ],
+        "rationale": "The aim is freedom from disturbance."
+      }
+    ],
+    "literary": [
+      {
+        "id": "l1",
+        "prompt": "A banished character retains dignity without office.",
+        "bestConcept": "stoicism",
+        "distractors": [
+          "oligarchy",
+          "clientelism",
+          "kleos"
+        ],
+        "rationale": "Virtue remains under loss."
+      },
+      {
+        "id": "l2",
+        "prompt": "A skull scene makes ambition appear brief.",
+        "bestConcept": "memento mori",
+        "distractors": [
+          "dignitas",
+          "equity",
+          "valor"
+        ],
+        "rationale": "Death disciplines pride."
+      },
+      {
+        "id": "l3",
+        "prompt": "A counselor speaks calmly while the court panics.",
+        "bestConcept": "equanimity",
+        "distractors": [
+          "wrath",
+          "pathos",
+          "decadence"
+        ],
+        "rationale": "Evenness of mind reveals insight."
+      },
+      {
+        "id": "l4",
+        "prompt": "A prisoner refuses to call chains moral defeat.",
+        "bestConcept": "prohairesis",
+        "distractors": [
+          "shame",
+          "kleos",
+          "patronage"
+        ],
+        "rationale": "Moral choice remains free."
+      },
+      {
+        "id": "l5",
+        "prompt": "A hero refuses to assent to despair.",
+        "bestConcept": "assent",
+        "distractors": [
+          "nomos",
+          "civic virtue",
+          "corruption"
+        ],
+        "rationale": "The mind refuses the destructive judgment."
+      }
+    ]
+  },
+  "argumentDuels": [
+    {
+      "id": "duel1",
+      "claimA": "Stoicism means suppressing emotion.",
+      "claimB": "Stoicism means refusing slavery to disordered passion.",
+      "stronger": "B",
+      "criteria": [
+        "accuracy",
+        "philosophical fit",
+        "practical force"
+      ]
+    },
+    {
+      "id": "duel2",
+      "claimA": "Freedom is control over events.",
+      "claimB": "Freedom begins with command over judgment and choice.",
+      "stronger": "B",
+      "criteria": [
+        "Stoic doctrine",
+        "leadership fit",
+        "precision"
+      ]
+    }
+  ],
+  "crosswords": [
+    {
+      "id": "cw1",
+      "title": "Stoic Core",
+      "size": 7,
+      "entries": [
+        {
+          "term": "logos",
+          "clue": "Reasoned order",
+          "row": 0,
+          "col": 0,
+          "direction": "across"
+        },
+        {
+          "term": "assent",
+          "clue": "Agreement to impression",
+          "row": 0,
+          "col": 0,
+          "direction": "down"
+        }
+      ]
+    },
+    {
+      "id": "cw2",
+      "title": "Calm",
+      "size": 7,
+      "entries": [
+        {
+          "term": "calm",
+          "clue": "Even mind",
+          "row": 1,
+          "col": 0,
+          "direction": "across"
+        },
+        {
+          "term": "fate",
+          "clue": "Fortune's pattern",
+          "row": 0,
+          "col": 2,
+          "direction": "down"
+        }
+      ]
+    }
+  ],
+  "clozeTests": [
+    {
+      "id": "cloze1",
+      "body": "{{Prohairesis}} names the faculty of moral choice.",
+      "answers": [
+        {
+          "blank": "Prohairesis",
+          "accepted": [
+            "prohairesis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloze2",
+      "body": "{{Apatheia}} is freedom from domination by destructive passions.",
+      "answers": [
+        {
+          "blank": "Apatheia",
+          "accepted": [
+            "apatheia"
+          ]
+        }
+      ]
+    }
+  ],
+  "conceptConstellation": {
+    "center": "Stoicism",
+    "near": [
+      "logos",
+      "prohairesis",
+      "assent"
+    ],
+    "tension": [
+      "externals",
+      "passion",
+      "fortune"
+    ],
+    "corrective": [
+      "fortitude",
+      "equanimity",
+      "apatheia",
+      "memento mori"
+    ]
+  },
+  "conceptBracket": {
+    "id": "bracket6",
+    "concepts": [
+      "stoicism",
+      "apatheia",
+      "logos",
+      "prohairesis",
+      "fortitude",
+      "equanimity",
+      "assent",
+      "externals"
+    ],
+    "roundPrompts": [
+      "Which concept best preserves freedom?",
+      "Which best governs pressure?",
+      "Which should rule the Stoic week?"
+    ],
+    "modelWinner": "prohairesis",
+    "rationale": "Moral choice is the citadel of Stoic freedom."
+  }
+}

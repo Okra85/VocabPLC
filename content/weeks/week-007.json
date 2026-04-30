@@ -1,0 +1,524 @@
+{
+  "id": "week-007",
+  "number": 7,
+  "title": "Rhetoric, Persuasion, and Demagoguery",
+  "difficultyBand": "Master's-to-doctoral bridge",
+  "centralQuestion": "When does persuasion serve truth, and when does it conquer judgment?",
+  "coreConcepts": [
+    "rhetoric",
+    "ethos",
+    "pathos",
+    "logos",
+    "demagoguery",
+    "sophistry"
+  ],
+  "lessons": {
+    "core": {
+      "title": "Speech as Civic Power",
+      "body": "Rhetoric is the art of discovering available means of persuasion. It is not automatically deceit. A good argument needs form because truth must enter human attention through words, order, emphasis, and memory. Aristotle's triad remains durable: ethos gives credibility, pathos moves feeling, and logos offers reason.\n\nDemagoguery begins when persuasion detaches from truth and feeds appetite. It flatters the audience's fear, rage, vanity, or resentment while pretending to liberate them. The danger is civic because speech can organize perception before facts are judged. Whoever governs the frame often governs the verdict."
+    },
+    "miniEssay": {
+      "title": "Sophistry and the Counterfeit Argument",
+      "body": "Sophistry is cleverness without allegiance to truth. It may use accurate facts, polished language, and technical distinctions, yet its purpose is victory over judgment. The sophist does not ask what is so; he asks what can be made to seem so.\n\nHigh-level learning requires a taste for this difference. The serious mind admires eloquence but interrogates it. It asks whether the argument clarifies reality or merely corners an opponent."
+    },
+    "synthesisEssay": {
+      "title": "The Ethics of Persuasion",
+      "body": "Rhetoric is unavoidable wherever free people deliberate. The question is whether speech respects the audience as judging persons or manipulates them as material. Classical education trained rhetoric because public life depends on speech that can move without corrupting.\n\nHistory and literature supply warnings. Crowds can be made noble by truthful summons or dangerous by theatrical grievance. A leader's language therefore reveals his politics. Does he invite judgment, or does he inflame appetite and call it justice?"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "rhetoric",
+      "term": "rhetoric",
+      "definition": "The art of persuasive speech or writing.",
+      "etymology": "From Greek rhetorike, the art of the public speaker.",
+      "example": "Her rhetoric gave order to facts without falsifying them.",
+      "historicalAnchor": "Greek democracies required citizens to argue in assemblies and courts.",
+      "literaryAnchor": "Shakespearean speeches often turn crowds by verbal architecture.",
+      "philosophicalAnchor": "Aristotle treats rhetoric as counterpart to dialectic.",
+      "synonyms": [
+        "persuasion"
+      ],
+      "antonyms": [
+        "silence"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "ethos",
+      "term": "ethos",
+      "definition": "Persuasive credibility grounded in character.",
+      "etymology": "From Greek ethos, character or habit.",
+      "example": "The witness had ethos because her record made exaggeration unlikely.",
+      "historicalAnchor": "Roman orators cultivated public character as argumentative capital.",
+      "literaryAnchor": "A noble speaker can persuade before proof appears.",
+      "philosophicalAnchor": "Ethos asks whether the speaker is worthy of trust.",
+      "synonyms": [
+        "credibility"
+      ],
+      "antonyms": [
+        "disrepute"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "pathos",
+      "term": "pathos",
+      "definition": "Persuasion through emotion or felt experience.",
+      "etymology": "From Greek pathos, suffering or passion.",
+      "example": "The memorial used pathos without exploiting grief.",
+      "historicalAnchor": "Public ceremonies often bind memory through pathos.",
+      "literaryAnchor": "Tragedy uses pathos to make moral truth felt.",
+      "philosophicalAnchor": "Rhetoric treats emotion as part of judgment, not its enemy.",
+      "synonyms": [
+        "feeling"
+      ],
+      "antonyms": [
+        "detachment"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "logos",
+      "term": "logos",
+      "definition": "Persuasion through reason, structure, and evidence.",
+      "etymology": "From Greek logos, word, reason, or account.",
+      "example": "The speech had pathos, but its logos was thin.",
+      "historicalAnchor": "Classical argument prizes ordered reasons in public dispute.",
+      "literaryAnchor": "Courtroom drama often turns on logos under pressure.",
+      "philosophicalAnchor": "Logos links speech to intelligible order.",
+      "synonyms": [
+        "reason"
+      ],
+      "antonyms": [
+        "fallacy"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "demagoguery",
+      "term": "demagoguery",
+      "definition": "Manipulative popular leadership through appetite, fear, or resentment.",
+      "etymology": "From Greek demos, people, and agogos, leading.",
+      "example": "Demagoguery made every compromise sound like betrayal.",
+      "historicalAnchor": "Ancient democracies feared leaders who flattered the crowd.",
+      "literaryAnchor": "Mob scenes reveal how speech can inflame collective appetite.",
+      "philosophicalAnchor": "Political theory asks how popular rule resists manipulation.",
+      "synonyms": [
+        "rabble-rousing"
+      ],
+      "antonyms": [
+        "statesmanship"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "sophistry",
+      "term": "sophistry",
+      "definition": "Specious reasoning used to win rather than discover truth.",
+      "etymology": "From Greek sophistes, expert or clever teacher.",
+      "example": "The memo's sophistry hid self-interest behind technical language.",
+      "historicalAnchor": "Sophists were controversial teachers of argumentative success.",
+      "literaryAnchor": "Comic rogues often speak in sophistical inversions.",
+      "philosophicalAnchor": "Plato attacks sophistry as counterfeit wisdom.",
+      "synonyms": [
+        "speciousness"
+      ],
+      "antonyms": [
+        "candor"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "enthymeme",
+      "term": "enthymeme",
+      "definition": "A rhetorical syllogism with an unstated premise.",
+      "etymology": "From Greek enthymema, something considered in the mind.",
+      "example": "The slogan worked as an enthymeme: real patriots agree with us.",
+      "historicalAnchor": "Classical rhetoricians studied abbreviated public reasoning.",
+      "literaryAnchor": "Characters often persuade by leaving assumptions unspoken.",
+      "philosophicalAnchor": "Argument analysis asks what premise has been smuggled in.",
+      "synonyms": [
+        "compressed argument"
+      ],
+      "antonyms": [
+        "full proof"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "kairos",
+      "term": "kairos",
+      "definition": "The opportune moment for speech or action.",
+      "etymology": "From Greek kairos, fitting time or occasion.",
+      "example": "The argument was true, but kairos had passed.",
+      "historicalAnchor": "Statesmen often win by timing speech to public readiness.",
+      "literaryAnchor": "Dramatic persuasion depends on occasion.",
+      "philosophicalAnchor": "Practical reason includes sensitivity to moment.",
+      "synonyms": [
+        "occasion"
+      ],
+      "antonyms": [
+        "mistiming"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "invective",
+      "term": "invective",
+      "definition": "Abusive or denunciatory speech.",
+      "etymology": "From Latin invehi, to attack in words.",
+      "example": "Invective replaced argument with appetite.",
+      "historicalAnchor": "Roman political contests often used savage invective.",
+      "literaryAnchor": "Satire sharpens invective into moral attack.",
+      "philosophicalAnchor": "The ethics of speech asks when denunciation serves justice.",
+      "synonyms": [
+        "denunciation"
+      ],
+      "antonyms": [
+        "praise"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "parrhesia",
+      "term": "parrhesia",
+      "definition": "Frank speech spoken despite risk.",
+      "etymology": "From Greek pan, all, and rhesis, speech.",
+      "example": "Parrhesia required telling the king what flattery concealed.",
+      "historicalAnchor": "Greek political life valued fearless civic speech.",
+      "literaryAnchor": "The truth-teller at court often practices parrhesia.",
+      "philosophicalAnchor": "Foucault later treats parrhesia as ethical truth-telling.",
+      "synonyms": [
+        "frankness"
+      ],
+      "antonyms": [
+        "flattery"
+      ],
+      "difficulty": 4
+    }
+  ],
+  "passage": {
+    "title": "The Crowd and the Word",
+    "body": "Speech may lift a city toward judgment or lower it into appetite. The speaker who respects the people gives them reasons, names costs, remembers limits, and refuses to purchase applause with falsehood. The demagogue gives them enemies. He simplifies pain into accusation, converts uncertainty into rage, and teaches the crowd to experience disagreement as betrayal.\n\nRhetoric is therefore not a decoration added after thought. It is a civic power. Arrangement decides what appears central. Metaphor decides what seems natural. Repetition decides what is remembered. Tone decides whether citizens feel summoned to judgment or released into contempt. A serious education must train the ear to hear not only what is said, but what desire the speech is feeding. The question is never merely, Was it persuasive? The question is, What kind of soul did it ask the listener to become?"
+  },
+  "historicalParallel": {
+    "title": "Athenian Assembly",
+    "body": "Classical Athens placed extraordinary weight on public speech. In the assembly, citizens voted on war, alliances, ostracism, finance, expeditions, and policy. In the courts, large juries heard litigants argue without modern professional lawyers. Such institutions required ordinary citizens to judge speeches, and they rewarded those who could frame urgency, danger, honor, and advantage persuasively.\n\nThis made Athens intellectually brilliant and politically vulnerable. Pericles could use rhetoric to give democratic courage disciplined form. Cleon, as Thucydides portrays him, could press anger toward brutality. Alcibiades could transform imperial appetite into glamour. The Mytilenean debate, the Sicilian debate, and many courtroom speeches show that rhetoric was never merely style. It was the medium through which the city perceived reality. Democratic freedom depended on speech, but it also depended on citizens trained not to be conquered by speech."
+  },
+  "leadershipCase": {
+    "title": "The Crisis Address",
+    "body": "A mayor must address disorder after a riot. She can inflame blame or tell the truth sharply while preserving civic dignity."
+  },
+  "rhetoricInsight": {
+    "title": "Enthymeme",
+    "body": "An enthymeme leaves one premise unstated. Bracket City-style challenge: identify what the audience must already believe for the slogan to work."
+  },
+  "retrievalBrief": "Ask whether the speaker uses credibility, emotion, reason, timing, frankness, or counterfeit cleverness.",
+  "scenarios": {
+    "modern": [
+      {
+        "id": "m1",
+        "prompt": "A speaker says, Real citizens support this bill.",
+        "bestConcept": "enthymeme",
+        "distractors": [
+          "kairos",
+          "parrhesia",
+          "ethos"
+        ],
+        "rationale": "The hidden premise defines dissenters as unreal citizens."
+      },
+      {
+        "id": "m2",
+        "prompt": "A leader blames every problem on a hated minority.",
+        "bestConcept": "demagoguery",
+        "distractors": [
+          "logos",
+          "equity",
+          "fortitude"
+        ],
+        "rationale": "Fear and resentment are being organized."
+      },
+      {
+        "id": "m3",
+        "prompt": "A researcher admits uncertainty before presenting evidence.",
+        "bestConcept": "ethos",
+        "distractors": [
+          "invective",
+          "sophistry",
+          "pathos"
+        ],
+        "rationale": "Credibility is strengthened by candor."
+      },
+      {
+        "id": "m4",
+        "prompt": "A true warning fails because it arrives after the decision.",
+        "bestConcept": "kairos",
+        "distractors": [
+          "logos",
+          "patronage",
+          "decadence"
+        ],
+        "rationale": "The fitting moment has been missed."
+      },
+      {
+        "id": "m5",
+        "prompt": "A memo uses technical distinctions to hide a conflict of interest.",
+        "bestConcept": "sophistry",
+        "distractors": [
+          "parrhesia",
+          "ethos",
+          "logos"
+        ],
+        "rationale": "Clever reasoning serves concealment."
+      }
+    ],
+    "historical": [
+      {
+        "id": "h1",
+        "prompt": "An assembly is persuaded by fear of enemies rather than evidence.",
+        "bestConcept": "pathos",
+        "distractors": [
+          "logos",
+          "eunomia",
+          "clemency"
+        ],
+        "rationale": "Emotion governs the decision."
+      },
+      {
+        "id": "h2",
+        "prompt": "A Roman orator attacks a rival's character savagely.",
+        "bestConcept": "invective",
+        "distractors": [
+          "parrhesia",
+          "equity",
+          "honor"
+        ],
+        "rationale": "The mode is denunciatory attack."
+      },
+      {
+        "id": "h3",
+        "prompt": "A statesman speaks hard truth to a king at personal risk.",
+        "bestConcept": "parrhesia",
+        "distractors": [
+          "sophistry",
+          "demagoguery",
+          "patronage"
+        ],
+        "rationale": "Frank speech risks punishment."
+      },
+      {
+        "id": "h4",
+        "prompt": "An advocate structures evidence into a public case.",
+        "bestConcept": "logos",
+        "distractors": [
+          "pathos",
+          "wrath",
+          "kleos"
+        ],
+        "rationale": "Reasoned order carries persuasion."
+      },
+      {
+        "id": "h5",
+        "prompt": "A crowd follows the man who flatters its anger.",
+        "bestConcept": "demagoguery",
+        "distractors": [
+          "ethos",
+          "logos",
+          "justice"
+        ],
+        "rationale": "Popular appetite is being led."
+      }
+    ],
+    "literary": [
+      {
+        "id": "l1",
+        "prompt": "Antony turns the Roman crowd through irony and grief.",
+        "bestConcept": "rhetoric",
+        "distractors": [
+          "equity",
+          "stoicism",
+          "clientelism"
+        ],
+        "rationale": "The scene displays persuasion as power."
+      },
+      {
+        "id": "l2",
+        "prompt": "A villain makes evil seem reasonable through polished distinctions.",
+        "bestConcept": "sophistry",
+        "distractors": [
+          "parrhesia",
+          "virtue",
+          "clemency"
+        ],
+        "rationale": "Cleverness counterfeits truth."
+      },
+      {
+        "id": "l3",
+        "prompt": "A noble character's prior conduct makes his speech believable.",
+        "bestConcept": "ethos",
+        "distractors": [
+          "invective",
+          "pathos",
+          "kairos"
+        ],
+        "rationale": "Character carries force."
+      },
+      {
+        "id": "l4",
+        "prompt": "A lament persuades through shared suffering.",
+        "bestConcept": "pathos",
+        "distractors": [
+          "logos",
+          "jurisprudence",
+          "oligarchy"
+        ],
+        "rationale": "Emotion carries the appeal."
+      },
+      {
+        "id": "l5",
+        "prompt": "A court fool tells forbidden truth safely through wit.",
+        "bestConcept": "parrhesia",
+        "distractors": [
+          "demagoguery",
+          "sophistry",
+          "patronage"
+        ],
+        "rationale": "Frankness appears under cover."
+      }
+    ]
+  },
+  "argumentDuels": [
+    {
+      "id": "duel1",
+      "claimA": "Rhetoric is manipulation.",
+      "claimB": "Rhetoric can serve truth or manipulation depending on its allegiance.",
+      "stronger": "B",
+      "criteria": [
+        "distinction",
+        "classical fit",
+        "fairness"
+      ]
+    },
+    {
+      "id": "duel2",
+      "claimA": "Emotion has no place in public reason.",
+      "claimB": "Emotion must be disciplined by reason, not excluded from judgment.",
+      "stronger": "B",
+      "criteria": [
+        "rhetorical theory",
+        "political realism",
+        "precision"
+      ]
+    }
+  ],
+  "crosswords": [
+    {
+      "id": "cw1",
+      "title": "Persuasion",
+      "size": 7,
+      "entries": [
+        {
+          "term": "ethos",
+          "clue": "Credible character",
+          "row": 0,
+          "col": 0,
+          "direction": "across"
+        },
+        {
+          "term": "logos",
+          "clue": "Reasoned appeal",
+          "row": 0,
+          "col": 0,
+          "direction": "down"
+        }
+      ]
+    },
+    {
+      "id": "cw2",
+      "title": "Public Speech",
+      "size": 7,
+      "entries": [
+        {
+          "term": "kairos",
+          "clue": "Right moment",
+          "row": 0,
+          "col": 0,
+          "direction": "across"
+        },
+        {
+          "term": "pathos",
+          "clue": "Emotional appeal",
+          "row": 0,
+          "col": 2,
+          "direction": "down"
+        }
+      ]
+    }
+  ],
+  "clozeTests": [
+    {
+      "id": "cloze1",
+      "body": "{{Ethos}} persuades through credible character.",
+      "answers": [
+        {
+          "blank": "Ethos",
+          "accepted": [
+            "ethos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloze2",
+      "body": "{{Sophistry}} is cleverness without allegiance to truth.",
+      "answers": [
+        {
+          "blank": "Sophistry",
+          "accepted": [
+            "sophistry"
+          ]
+        }
+      ]
+    }
+  ],
+  "conceptConstellation": {
+    "center": "Rhetoric",
+    "near": [
+      "ethos",
+      "pathos",
+      "logos"
+    ],
+    "tension": [
+      "demagoguery",
+      "sophistry",
+      "invective"
+    ],
+    "corrective": [
+      "parrhesia",
+      "kairos",
+      "evidence",
+      "judgment"
+    ]
+  },
+  "conceptBracket": {
+    "id": "bracket7",
+    "concepts": [
+      "rhetoric",
+      "ethos",
+      "pathos",
+      "logos",
+      "demagoguery",
+      "sophistry",
+      "kairos",
+      "parrhesia"
+    ],
+    "roundPrompts": [
+      "Which concept best serves truthful persuasion?",
+      "Which most corrupts public judgment?",
+      "Which should govern civic speech?"
+    ],
+    "modelWinner": "logos",
+    "rationale": "Reasoned account must discipline character, emotion, and timing."
+  }
+}

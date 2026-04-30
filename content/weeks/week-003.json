@@ -1,0 +1,524 @@
+{
+  "id": "week-003",
+  "number": 3,
+  "title": "Justice from Plato to the Republic",
+  "difficultyBand": "Master's level",
+  "centralQuestion": "Is justice a private virtue, a public order, or both?",
+  "coreConcepts": [
+    "justice",
+    "order",
+    "soul",
+    "law",
+    "equity",
+    "common good"
+  ],
+  "lessons": {
+    "core": {
+      "title": "Justice as Order",
+      "body": "Justice is often reduced to fairness, but the older tradition gives it a sterner meaning. In Plato, justice is order: each part of the soul and city doing its proper work under reason. In Rome, justice becomes visible through law, office, and public duty. In modern life, justice remains unstable when it is severed from character.\n\nThe great question is whether justice names a procedure or a form of soul. Western philosophy refuses to choose too quickly. Law matters because appetite must be restrained by public form. Character matters because law can be bent by clever and disordered people. A just order therefore requires both institutions and souls capable of honoring them."
+    },
+    "miniEssay": {
+      "title": "Equity and Rule",
+      "body": "Law gives predictability, but equity asks whether a rule has met the living case before it. This is not an excuse for sentiment. Equity is disciplined correction. It recognizes that general rules are necessary and that particulars can expose their limits.\n\nThe judge, teacher, commander, and parent all face this question. To apply the rule mechanically may be cruel. To abandon the rule casually may be corrupt. Equity is the art of preserving justice when strict application would betray its purpose."
+    },
+    "synthesisEssay": {
+      "title": "Justice in the Soul and City",
+      "body": "Justice links inward order to outward legitimacy. Plato sees the city as a magnified soul because politics displays the hierarchy of desire, spirit, and reason. Roman law adds durability: justice must be remembered, recorded, and applied beyond personal mood.\n\nLiterature keeps the problem concrete. Antigone confronts a legal command with a higher claim. Portia bends legal intelligence toward mercy. Modern institutions need the same double vision: fidelity to law and alertness to moral proportion. Justice is not softness. It is rightly ordered judgment."
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "justice",
+      "term": "justice",
+      "definition": "Right order in conduct, judgment, and institutions.",
+      "etymology": "From Latin iustitia, righteousness or equity, rooted in ius, law or right.",
+      "example": "Justice required more than punishing the guilty; it required restoring trust.",
+      "historicalAnchor": "Roman jurists made justice a durable public craft.",
+      "literaryAnchor": "Antigone tests civic law against sacred obligation.",
+      "philosophicalAnchor": "Plato defines justice as each part doing its proper work.",
+      "synonyms": [
+        "right order"
+      ],
+      "antonyms": [
+        "injustice"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "equity",
+      "term": "equity",
+      "definition": "Correction of strict rule in light of the particular case.",
+      "etymology": "From Latin aequitas, evenness or fairness.",
+      "example": "Equity kept the policy from punishing the very loyalty it meant to protect.",
+      "historicalAnchor": "Equity courts emerged to soften rigid common-law outcomes.",
+      "literaryAnchor": "Portia's mercy speech turns legal precision toward moral proportion.",
+      "philosophicalAnchor": "Aristotle calls equity a correction of legal universality.",
+      "synonyms": [
+        "fairness"
+      ],
+      "antonyms": [
+        "rigidity"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "nomos",
+      "term": "nomos",
+      "definition": "Law, custom, or normative order.",
+      "etymology": "From Greek nomos, law, custom, or distribution.",
+      "example": "The city lost its nomos when every faction obeyed only victory.",
+      "historicalAnchor": "Greek poleis understood law as civic identity.",
+      "literaryAnchor": "Tragedy often stages conflict between human nomos and divine claim.",
+      "philosophicalAnchor": "Political theory asks whether nomos rests on nature, convention, or force.",
+      "synonyms": [
+        "law"
+      ],
+      "antonyms": [
+        "anarchy"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "polity",
+      "term": "polity",
+      "definition": "A political community and its form of order.",
+      "etymology": "From Greek politeia, citizenship, constitution, or regime.",
+      "example": "A polity cannot survive when law becomes a costume for appetite.",
+      "historicalAnchor": "Aristotle classifies regimes by who rules and for whose good.",
+      "literaryAnchor": "Civic drama shows private passions disturbing the polity.",
+      "philosophicalAnchor": "The polity links law, citizen, office, and purpose.",
+      "synonyms": [
+        "commonwealth"
+      ],
+      "antonyms": [
+        "mob"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "proportion",
+      "term": "proportion",
+      "definition": "Fitting relation among parts, deserts, means, and ends.",
+      "etymology": "From Latin proportio, comparative relation.",
+      "example": "The punishment lacked proportion and therefore weakened justice.",
+      "historicalAnchor": "Classical law often sought proportional penalties.",
+      "literaryAnchor": "Measure and proportion govern comic restoration and tragic loss.",
+      "philosophicalAnchor": "Justice requires giving each thing its due.",
+      "synonyms": [
+        "measure"
+      ],
+      "antonyms": [
+        "excess"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "desert",
+      "term": "desert",
+      "definition": "What one is due by merit, fault, role, or action.",
+      "etymology": "From Old French deservir, to deserve or serve well.",
+      "example": "Reward without desert taught the institution to despise excellence.",
+      "historicalAnchor": "Aristocratic and republican orders debated birth, merit, and service.",
+      "literaryAnchor": "Tragedy unsettles easy confidence that people receive their desert.",
+      "philosophicalAnchor": "Distributive justice asks how goods should track desert.",
+      "synonyms": [
+        "merit"
+      ],
+      "antonyms": [
+        "arbitrariness"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "retribution",
+      "term": "retribution",
+      "definition": "Punishment understood as deserved repayment for wrong.",
+      "etymology": "From Latin retribuere, to pay back.",
+      "example": "Retribution satisfied anger but did not rebuild civic trust.",
+      "historicalAnchor": "Ancient codes often made punishment a public restoration of balance.",
+      "literaryAnchor": "Revenge tragedy asks when retribution becomes corruption.",
+      "philosophicalAnchor": "Penal theory distinguishes retribution from deterrence and rehabilitation.",
+      "synonyms": [
+        "repayment"
+      ],
+      "antonyms": [
+        "impunity"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "clemency",
+      "term": "clemency",
+      "definition": "Merciful restraint in the use of punishment.",
+      "etymology": "From Latin clementia, mildness or mercy.",
+      "example": "Clemency made the victory politically durable.",
+      "historicalAnchor": "Caesar advertised clemency as a tool of rule.",
+      "literaryAnchor": "Mercy can resolve what strict revenge cannot.",
+      "philosophicalAnchor": "Clemency tests whether justice can include mercy without becoming weakness.",
+      "synonyms": [
+        "mercy"
+      ],
+      "antonyms": [
+        "severity"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "jurisprudence",
+      "term": "jurisprudence",
+      "definition": "The theory and disciplined study of law.",
+      "etymology": "From Latin iuris prudentia, knowledge or prudence of law.",
+      "example": "Her jurisprudence treated rights as duties made visible.",
+      "historicalAnchor": "Roman legal thought shaped Western institutions for centuries.",
+      "literaryAnchor": "Courtroom scenes dramatize jurisprudence under pressure.",
+      "philosophicalAnchor": "Jurisprudence asks what law is and why it binds.",
+      "synonyms": [
+        "legal theory"
+      ],
+      "antonyms": [
+        "lawlessness"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "eunomia",
+      "term": "eunomia",
+      "definition": "Good order under good laws.",
+      "etymology": "From Greek eu, good, and nomos, law.",
+      "example": "The reform sought eunomia rather than mere administrative efficiency.",
+      "historicalAnchor": "Greek poets praised eunomia as civic harmony.",
+      "literaryAnchor": "The ordered city often stands behind tragic disorder.",
+      "philosophicalAnchor": "Political philosophy treats good law as moral architecture.",
+      "synonyms": [
+        "good order"
+      ],
+      "antonyms": [
+        "dysnomia"
+      ],
+      "difficulty": 3
+    }
+  ],
+  "passage": {
+    "title": "The Ordered Soul",
+    "body": "The just person is not the one with the loudest grievance, nor the city just because every appetite has been given a public language. Justice begins when the powers of the soul are arranged according to their proper work. Desire seeks food, comfort, possession, and pleasure. Spirit seeks honor, victory, and recognition. Reason asks what is good, fitting, and true. Disorder begins when the lower power seizes the throne and then hires argument to defend its usurpation.\n\nThe same pattern appears in the city. A community may speak constantly of rights and still be ruled by appetite. It may praise courage and still be governed by rage. It may write laws and still bend them toward faction. Justice requires more than equal noise among competing desires. It requires a hierarchy of goods. Each part must perform its proper office, and the ruling part must be worthy to rule. Without inward order, public law becomes only a polished instrument in the hands of disorder."
+  },
+  "historicalParallel": {
+    "title": "Roman Law and Public Memory",
+    "body": "Rome's legal achievement was not that Romans were morally superior to other peoples. Their achievement was to make law durable, public, and portable across generations. From the Twelve Tables in the fifth century BC to the later jurists of the imperial period, Roman law gave disputes a language that outlived the moods of particular magistrates. Written forms could be harsh, incomplete, or socially unequal, but they made appeal possible.\n\nThis legal memory mattered because Rome governed a vast and changing world. Contracts, property, citizenship, family authority, inheritance, and public office all required more than force. They required categories stable enough to be recognized. The later European tradition inherited not only Roman statutes but a Roman habit of legal reasoning: define the person, the office, the injury, the obligation, the remedy. Justice remained imperfect, but law became a civilizational memory against arbitrariness."
+  },
+  "leadershipCase": {
+    "title": "The Unequal Punishment",
+    "body": "Two employees violate the same rule, but one acted from negligence and one from necessity. The leader must preserve the rule while recognizing morally relevant difference."
+  },
+  "rhetoricInsight": {
+    "title": "Definition",
+    "body": "A rigorous argument often begins by defining the disputed term. Whoever defines justice carelessly will reason carelessly about law, mercy, and punishment."
+  },
+  "retrievalBrief": "Distinguish justice, equity, desert, retribution, and clemency by asking what each gives to the case.",
+  "scenarios": {
+    "modern": [
+      {
+        "id": "m1",
+        "prompt": "A policy punishes whistleblowers and vandals identically.",
+        "bestConcept": "equity",
+        "distractors": [
+          "nomos",
+          "clemency",
+          "eunomia"
+        ],
+        "rationale": "The rule needs disciplined correction for morally different cases."
+      },
+      {
+        "id": "m2",
+        "prompt": "A committee distributes prizes by friendship rather than merit.",
+        "bestConcept": "desert",
+        "distractors": [
+          "polity",
+          "clemency",
+          "nomos"
+        ],
+        "rationale": "Reward has separated from what is due."
+      },
+      {
+        "id": "m3",
+        "prompt": "A city preserves transparent procedures during unrest.",
+        "bestConcept": "eunomia",
+        "distractors": [
+          "wrath",
+          "kleos",
+          "magnificence"
+        ],
+        "rationale": "Good order depends on visible lawfulness."
+      },
+      {
+        "id": "m4",
+        "prompt": "A judge reduces a sentence after genuine restitution.",
+        "bestConcept": "clemency",
+        "distractors": [
+          "retribution",
+          "anarchy",
+          "hubris"
+        ],
+        "rationale": "Merciful restraint modifies punishment."
+      },
+      {
+        "id": "m5",
+        "prompt": "A legal scholar asks why citizens should obey law.",
+        "bestConcept": "jurisprudence",
+        "distractors": [
+          "valor",
+          "shame",
+          "honor"
+        ],
+        "rationale": "The question concerns the theory of law."
+      }
+    ],
+    "historical": [
+      {
+        "id": "h1",
+        "prompt": "A written code restrains aristocratic whim.",
+        "bestConcept": "nomos",
+        "distractors": [
+          "wrath",
+          "kleos",
+          "apathy"
+        ],
+        "rationale": "Law replaces private will."
+      },
+      {
+        "id": "h2",
+        "prompt": "A republic decays when factions rule for private spoils.",
+        "bestConcept": "polity",
+        "distractors": [
+          "clemency",
+          "valor",
+          "ignominy"
+        ],
+        "rationale": "The form of common order is at stake."
+      },
+      {
+        "id": "h3",
+        "prompt": "A penalty exceeds the offense and breeds contempt.",
+        "bestConcept": "proportion",
+        "distractors": [
+          "magnificence",
+          "counsel",
+          "kleos"
+        ],
+        "rationale": "Justice requires measured relation."
+      },
+      {
+        "id": "h4",
+        "prompt": "A conqueror spares enemies to restore civic peace.",
+        "bestConcept": "clemency",
+        "distractors": [
+          "hubris",
+          "retribution",
+          "wrath"
+        ],
+        "rationale": "Mercy serves durable order."
+      },
+      {
+        "id": "h5",
+        "prompt": "Law schools preserve centuries of legal reasoning.",
+        "bestConcept": "jurisprudence",
+        "distractors": [
+          "valor",
+          "shame",
+          "apathy"
+        ],
+        "rationale": "The tradition studies law as reasoned craft."
+      }
+    ],
+    "literary": [
+      {
+        "id": "l1",
+        "prompt": "Antigone appeals beyond the king's decree.",
+        "bestConcept": "justice",
+        "distractors": [
+          "kleos",
+          "wrath",
+          "magnificence"
+        ],
+        "rationale": "The conflict turns on right beyond command."
+      },
+      {
+        "id": "l2",
+        "prompt": "Portia asks that mercy season justice.",
+        "bestConcept": "clemency",
+        "distractors": [
+          "retribution",
+          "ignominy",
+          "hubris"
+        ],
+        "rationale": "Mercy restrains strict penalty."
+      },
+      {
+        "id": "l3",
+        "prompt": "A revenge hero becomes like the criminal he hates.",
+        "bestConcept": "retribution",
+        "distractors": [
+          "equity",
+          "eunomia",
+          "counsel"
+        ],
+        "rationale": "Repayment has become morally dangerous."
+      },
+      {
+        "id": "l4",
+        "prompt": "A ruler confuses his decree with the whole moral law.",
+        "bestConcept": "nomos",
+        "distractors": [
+          "valor",
+          "honor",
+          "kleos"
+        ],
+        "rationale": "Human law is being absolutized."
+      },
+      {
+        "id": "l5",
+        "prompt": "A comedy restores marriages, offices, and names.",
+        "bestConcept": "proportion",
+        "distractors": [
+          "wrath",
+          "ignominy",
+          "apathy"
+        ],
+        "rationale": "Fitting relations are restored."
+      }
+    ]
+  },
+  "argumentDuels": [
+    {
+      "id": "duel1",
+      "claimA": "Justice is simply equal treatment.",
+      "claimB": "Justice gives equal regard while recognizing relevant difference.",
+      "stronger": "B",
+      "criteria": [
+        "precision",
+        "equity",
+        "philosophical fit"
+      ]
+    },
+    {
+      "id": "duel2",
+      "claimA": "Mercy weakens law.",
+      "claimB": "Mercy can perfect law when governed by justice.",
+      "stronger": "B",
+      "criteria": [
+        "distinction",
+        "literary evidence",
+        "legal fit"
+      ]
+    }
+  ],
+  "crosswords": [
+    {
+      "id": "cw1",
+      "title": "Law Words",
+      "size": 7,
+      "entries": [
+        {
+          "term": "equity",
+          "clue": "Corrective fairness",
+          "row": 0,
+          "col": 0,
+          "direction": "across"
+        },
+        {
+          "term": "nomos",
+          "clue": "Greek law",
+          "row": 0,
+          "col": 0,
+          "direction": "down"
+        }
+      ]
+    },
+    {
+      "id": "cw2",
+      "title": "Order Words",
+      "size": 7,
+      "entries": [
+        {
+          "term": "desert",
+          "clue": "What is due",
+          "row": 1,
+          "col": 0,
+          "direction": "across"
+        },
+        {
+          "term": "law",
+          "clue": "Public rule",
+          "row": 0,
+          "col": 2,
+          "direction": "down"
+        }
+      ]
+    }
+  ],
+  "clozeTests": [
+    {
+      "id": "cloze1",
+      "body": "{{Equity}} corrects the strict rule without despising law.",
+      "answers": [
+        {
+          "blank": "Equity",
+          "accepted": [
+            "equity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloze2",
+      "body": "{{Justice}} is right order in soul, judgment, and city.",
+      "answers": [
+        {
+          "blank": "Justice",
+          "accepted": [
+            "justice"
+          ]
+        }
+      ]
+    }
+  ],
+  "conceptConstellation": {
+    "center": "Justice",
+    "near": [
+      "equity",
+      "proportion",
+      "nomos"
+    ],
+    "tension": [
+      "retribution",
+      "clemency",
+      "desert"
+    ],
+    "corrective": [
+      "eunomia",
+      "jurisprudence",
+      "law",
+      "common good"
+    ]
+  },
+  "conceptBracket": {
+    "id": "bracket3",
+    "concepts": [
+      "justice",
+      "equity",
+      "nomos",
+      "polity",
+      "proportion",
+      "desert",
+      "clemency",
+      "jurisprudence"
+    ],
+    "roundPrompts": [
+      "Which concept best defines right order?",
+      "Which concept best corrects rigidity?",
+      "Which concept should govern punishment?"
+    ],
+    "modelWinner": "justice",
+    "rationale": "Justice orders the other legal and moral concepts."
+  }
+}

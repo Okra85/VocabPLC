@@ -1,0 +1,524 @@
+{
+  "id": "week-008",
+  "number": 8,
+  "title": "Empire, Law, and Legitimacy",
+  "difficultyBand": "Master's-to-doctoral bridge",
+  "centralQuestion": "Can law civilize empire, or does empire bend law to command?",
+  "coreConcepts": [
+    "empire",
+    "imperium",
+    "jurisdiction",
+    "sovereignty",
+    "assimilation",
+    "hegemony"
+  ],
+  "lessons": {
+    "core": {
+      "title": "Law at Scale",
+      "body": "Empire is rule across distance, difference, and unequal power. It promises order, roads, peace, markets, and law. It also risks domination, extraction, cultural arrogance, and administrative blindness. Rome made empire durable by joining force to law and citizenship, yet the same machinery could turn distant peoples into material for central ambition.\n\nThe question is not whether empire is simply impressive or simply wicked. The high-level question is how power at scale seeks legitimacy. Does it protect local order or erase it? Does law restrain command or decorate it? Does citizenship expand dignity or demand submission?"
+    },
+    "miniEssay": {
+      "title": "The Imperial Bargain",
+      "body": "Empires often offer a bargain: security and infrastructure in exchange for obedience. The bargain can be real. Roads, courts, and peace matter. Yet unequal power makes consent ambiguous. The subject may accept order while resenting humiliation.\n\nLeadership at scale faces a similar problem. A large institution can standardize excellence or flatten judgment. It can extend justice or export bureaucracy. The imperial temptation is to mistake reach for wisdom."
+    },
+    "synthesisEssay": {
+      "title": "Command and Recognition",
+      "body": "Empire survives by force, but it endures by recognition. Roman citizenship, provincial administration, and law created forms of belonging that mere conquest could not supply. Yet recognition is fragile when people experience law as another name for extraction.\n\nLiterature records the voices beneath the imperial map: exiles, captives, provincial strivers, loyal servants, and rebels. Philosophy asks whether universal order can respect particular goods. The mature judgment sees both the achievement and the danger of scale."
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "empire",
+      "term": "empire",
+      "definition": "Rule over multiple peoples or territories from a center of power.",
+      "etymology": "From Latin imperium, command or authority.",
+      "example": "The empire promised law but often delivered extraction.",
+      "historicalAnchor": "Rome transformed conquest into administration and citizenship.",
+      "literaryAnchor": "Imperial epics praise order while hinting at cost.",
+      "philosophicalAnchor": "Political theory asks whether universal rule can be just.",
+      "synonyms": [
+        "dominion"
+      ],
+      "antonyms": [
+        "localism"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "imperium",
+      "term": "imperium",
+      "definition": "Command authority, especially Roman military and magistrate power.",
+      "etymology": "Latin imperium, command, order, or authority.",
+      "example": "Imperium gave the governor power that required legal restraint.",
+      "historicalAnchor": "Roman magistrates held imperium within defined offices.",
+      "literaryAnchor": "Roman tragedy tests command against piety and fate.",
+      "philosophicalAnchor": "Imperium raises the problem of legitimate coercion.",
+      "synonyms": [
+        "command"
+      ],
+      "antonyms": [
+        "subjection"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "jurisdiction",
+      "term": "jurisdiction",
+      "definition": "The lawful scope within which authority may judge or command.",
+      "etymology": "From Latin ius, law, and dicere, to speak.",
+      "example": "The agency exceeded its jurisdiction and lost trust.",
+      "historicalAnchor": "Imperial administration depended on layered jurisdictions.",
+      "literaryAnchor": "Court scenes often turn on who has authority to judge.",
+      "philosophicalAnchor": "Jurisdiction limits power by defining its rightful field.",
+      "synonyms": [
+        "legal scope"
+      ],
+      "antonyms": [
+        "overreach"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "sovereignty",
+      "term": "sovereignty",
+      "definition": "Supreme authority within a political order.",
+      "etymology": "From Old French soverain, highest or supreme.",
+      "example": "The treaty left symbols of sovereignty while moving real power elsewhere.",
+      "historicalAnchor": "Modern statecraft made sovereignty central to political order.",
+      "literaryAnchor": "Kingship drama asks where supreme authority truly resides.",
+      "philosophicalAnchor": "Sovereignty asks who has final authority to decide.",
+      "synonyms": [
+        "supremacy"
+      ],
+      "antonyms": [
+        "dependency"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "assimilation",
+      "term": "assimilation",
+      "definition": "Absorption of a group into the culture or norms of another.",
+      "etymology": "From Latin assimilare, to make similar.",
+      "example": "Assimilation offered advancement at the cost of inherited identity.",
+      "historicalAnchor": "Rome could absorb elites through citizenship and language.",
+      "literaryAnchor": "Provincial characters often negotiate ambition and belonging.",
+      "philosophicalAnchor": "Assimilation tests universal order against particular memory.",
+      "synonyms": [
+        "absorption"
+      ],
+      "antonyms": [
+        "separateness"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "hegemony",
+      "term": "hegemony",
+      "definition": "Leadership or dominance maintained through consent, culture, and power.",
+      "etymology": "From Greek hegemonia, leadership or command.",
+      "example": "The institution's hegemony endured because rivals adopted its vocabulary.",
+      "historicalAnchor": "Greek leagues and modern empires both used hegemonic influence.",
+      "literaryAnchor": "Dominant cultures shape which stories seem natural.",
+      "philosophicalAnchor": "Modern theory studies hegemony as power that becomes common sense.",
+      "synonyms": [
+        "dominance"
+      ],
+      "antonyms": [
+        "subordination"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "province",
+      "term": "province",
+      "definition": "A territory governed as part of a larger imperial order.",
+      "etymology": "From Latin provincia, official sphere or conquered territory.",
+      "example": "The province obeyed but did not feel represented.",
+      "historicalAnchor": "Roman provinces supplied revenue, soldiers, and status.",
+      "literaryAnchor": "Provincial settings reveal distance from the center.",
+      "philosophicalAnchor": "The province asks whether rule at distance can know local goods.",
+      "synonyms": [
+        "territory"
+      ],
+      "antonyms": [
+        "center"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "cosmopolis",
+      "term": "cosmopolis",
+      "definition": "A world-city or universal political community.",
+      "etymology": "From Greek kosmos, world, and polis, city.",
+      "example": "The imperial capital imagined itself as cosmopolis.",
+      "historicalAnchor": "Hellenistic and Roman worlds enlarged civic imagination.",
+      "literaryAnchor": "Travel literature often imagines world citizenship.",
+      "philosophicalAnchor": "Stoics developed cosmopolitan moral belonging.",
+      "synonyms": [
+        "world-city"
+      ],
+      "antonyms": [
+        "parochialism"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "tributary",
+      "term": "tributary",
+      "definition": "A subordinate power paying tribute or yielding resources.",
+      "etymology": "From Latin tributum, assigned payment.",
+      "example": "The ally was officially free but practically tributary.",
+      "historicalAnchor": "Empires often marked hierarchy through tribute.",
+      "literaryAnchor": "Tribute scenes display submission and resentment.",
+      "philosophicalAnchor": "Tributary relations test the difference between alliance and domination.",
+      "synonyms": [
+        "subordinate"
+      ],
+      "antonyms": [
+        "sovereign"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "universalism",
+      "term": "universalism",
+      "definition": "The claim that certain principles apply across peoples and places.",
+      "etymology": "From Latin universalis, of the whole.",
+      "example": "Universalism became suspect when justice arrived with contempt.",
+      "historicalAnchor": "Imperial powers often justify rule with universal claims.",
+      "literaryAnchor": "Epic can make local conquest appear world-historical.",
+      "philosophicalAnchor": "Universalism asks whether reason transcends custom without erasing it.",
+      "synonyms": [
+        "generalism"
+      ],
+      "antonyms": [
+        "particularism"
+      ],
+      "difficulty": 4
+    }
+  ],
+  "passage": {
+    "title": "The Map and the Law",
+    "body": "The map shows possession, but law must show recognition. A ruler may draw borders with command; he cannot draw loyalty by ink alone. Roads, forts, tax registers, courts, and governors can make distant rule visible, but they do not by themselves make it just. The subject asks a question the map cannot answer: does this order see me as a person, a partner, a citizen, a client, a tool, or a conquered remainder?\n\nEmpire always speaks in large nouns: peace, order, civilization, law, security, destiny. Some of these nouns may describe real goods. Banditry may decline; trade may widen; local elites may enter a broader world. Yet the very scale that enables order also tempts blindness. The center mistakes uniformity for justice. The province learns to obey without belonging. Law becomes legitimate only when it restrains the hand that carries it."
+  },
+  "historicalParallel": {
+    "title": "Roman Citizenship",
+    "body": "Roman citizenship began as a status attached to the city of Rome and expanded unevenly across Italy and the empire. After the Social War of 91-87 BC, Rome extended citizenship to Italian allies whose military service and grievances had made exclusion untenable. In AD 212, the emperor Caracalla issued the Constitutio Antoniniana, granting citizenship to nearly all free inhabitants of the empire.\n\nThe expansion was both generous and strategic. Citizenship could dignify subjects, regularize law, increase tax reach, bind local elites to the imperial order, and make Rome seem less like a conqueror and more like a universal commonwealth. Yet citizenship did not erase hierarchy, provincial extraction, slavery, or cultural domination. Its importance lies in the imperial bargain: Rome learned that durable empire required more than conquest. It required forms of membership through which ruled peoples could imagine themselves inside the order that governed them."
+  },
+  "leadershipCase": {
+    "title": "The Central Office",
+    "body": "A national organization imposes one policy on all local chapters. Efficiency rises, but local knowledge disappears. The leader must decide where uniform law helps and where jurisdiction should remain local."
+  },
+  "rhetoricInsight": {
+    "title": "Imperial Universalism",
+    "body": "Imperial speech often uses universal language: peace, order, civilization, rights. The analytical task is to ask whether universal claims restrain power or merely dignify it."
+  },
+  "retrievalBrief": "Ask whether power is commanding, integrating, dominating, universalizing, exceeding jurisdiction, or seeking recognition.",
+  "scenarios": {
+    "modern": [
+      {
+        "id": "m1",
+        "prompt": "A headquarters standard improves safety but ignores local conditions.",
+        "bestConcept": "jurisdiction",
+        "distractors": [
+          "pathos",
+          "wrath",
+          "kleos"
+        ],
+        "rationale": "The scope of authority must be fitted to the field."
+      },
+      {
+        "id": "m2",
+        "prompt": "A platform shapes the language used even by critics.",
+        "bestConcept": "hegemony",
+        "distractors": [
+          "province",
+          "tributary",
+          "fortitude"
+        ],
+        "rationale": "Dominance works through accepted vocabulary."
+      },
+      {
+        "id": "m3",
+        "prompt": "A regional partner is free in name but dependent on central funding.",
+        "bestConcept": "tributary",
+        "distractors": [
+          "sovereignty",
+          "cosmopolis",
+          "logos"
+        ],
+        "rationale": "Subordination is masked by formal autonomy."
+      },
+      {
+        "id": "m4",
+        "prompt": "A global school network teaches common principles across cultures.",
+        "bestConcept": "universalism",
+        "distractors": [
+          "clientelism",
+          "hamartia",
+          "shame"
+        ],
+        "rationale": "The claim crosses local boundaries."
+      },
+      {
+        "id": "m5",
+        "prompt": "A leader expands authority without legal authorization.",
+        "bestConcept": "imperium",
+        "distractors": [
+          "apatheia",
+          "clemency",
+          "pathos"
+        ],
+        "rationale": "Command authority is being asserted."
+      }
+    ],
+    "historical": [
+      {
+        "id": "h1",
+        "prompt": "Rome grants citizenship to provincial elites.",
+        "bestConcept": "assimilation",
+        "distractors": [
+          "ignominy",
+          "wrath",
+          "equity"
+        ],
+        "rationale": "Local elites are absorbed into central norms."
+      },
+      {
+        "id": "h2",
+        "prompt": "A conquered territory pays yearly resources to the center.",
+        "bestConcept": "tributary",
+        "distractors": [
+          "cosmopolis",
+          "parrhesia",
+          "eunomia"
+        ],
+        "rationale": "Tribute marks hierarchy."
+      },
+      {
+        "id": "h3",
+        "prompt": "An emperor's command reaches across diverse peoples.",
+        "bestConcept": "empire",
+        "distractors": [
+          "republic",
+          "comedy",
+          "stoicism"
+        ],
+        "rationale": "Rule extends over multiple peoples."
+      },
+      {
+        "id": "h4",
+        "prompt": "A provincial governor judges cases beyond his lawful scope.",
+        "bestConcept": "jurisdiction",
+        "distractors": [
+          "logos",
+          "honor",
+          "kleos"
+        ],
+        "rationale": "The issue is lawful scope."
+      },
+      {
+        "id": "h5",
+        "prompt": "A capital imagines itself the city of the whole world.",
+        "bestConcept": "cosmopolis",
+        "distractors": [
+          "province",
+          "clientelism",
+          "nemesis"
+        ],
+        "rationale": "The world-city ideal is central."
+      }
+    ],
+    "literary": [
+      {
+        "id": "l1",
+        "prompt": "An epic praises empire as destiny and peace.",
+        "bestConcept": "universalism",
+        "distractors": [
+          "sophistry",
+          "shame",
+          "equity"
+        ],
+        "rationale": "The local conquest is cast as universal order."
+      },
+      {
+        "id": "l2",
+        "prompt": "A provincial character changes speech to gain acceptance at court.",
+        "bestConcept": "assimilation",
+        "distractors": [
+          "wrath",
+          "fate",
+          "clemency"
+        ],
+        "rationale": "Belonging requires becoming similar."
+      },
+      {
+        "id": "l3",
+        "prompt": "A king claims final authority over church, court, and army.",
+        "bestConcept": "sovereignty",
+        "distractors": [
+          "pathos",
+          "apatheia",
+          "decadence"
+        ],
+        "rationale": "The issue is supreme authority."
+      },
+      {
+        "id": "l4",
+        "prompt": "A conquered speaker accepts order but resents humiliation.",
+        "bestConcept": "empire",
+        "distractors": [
+          "comedy",
+          "valor",
+          "ethos"
+        ],
+        "rationale": "Imperial order includes unequal recognition."
+      },
+      {
+        "id": "l5",
+        "prompt": "A dominant culture decides which stories are considered civilized.",
+        "bestConcept": "hegemony",
+        "distractors": [
+          "fortitude",
+          "nomos",
+          "justice"
+        ],
+        "rationale": "Power shapes cultural common sense."
+      }
+    ]
+  },
+  "argumentDuels": [
+    {
+      "id": "duel1",
+      "claimA": "Empire is merely oppression.",
+      "claimB": "Empire can produce order while still risking domination and extraction.",
+      "stronger": "B",
+      "criteria": [
+        "historical complexity",
+        "moral clarity",
+        "conceptual range"
+      ]
+    },
+    {
+      "id": "duel2",
+      "claimA": "Universal principles always liberate.",
+      "claimB": "Universal principles liberate only when they restrain power rather than disguise it.",
+      "stronger": "B",
+      "criteria": [
+        "precision",
+        "political realism",
+        "philosophical force"
+      ]
+    }
+  ],
+  "crosswords": [
+    {
+      "id": "cw1",
+      "title": "Imperial Terms",
+      "size": 7,
+      "entries": [
+        {
+          "term": "empire",
+          "clue": "Rule across peoples",
+          "row": 0,
+          "col": 0,
+          "direction": "across"
+        },
+        {
+          "term": "law",
+          "clue": "Public rule",
+          "row": 0,
+          "col": 0,
+          "direction": "down"
+        }
+      ]
+    },
+    {
+      "id": "cw2",
+      "title": "Scale",
+      "size": 7,
+      "entries": [
+        {
+          "term": "province",
+          "clue": "Governed territory",
+          "row": 0,
+          "col": 0,
+          "direction": "across"
+        },
+        {
+          "term": "tribute",
+          "clue": "Subordinate payment",
+          "row": 0,
+          "col": 2,
+          "direction": "down"
+        }
+      ]
+    }
+  ],
+  "clozeTests": [
+    {
+      "id": "cloze1",
+      "body": "{{Jurisdiction}} names the lawful scope of authority.",
+      "answers": [
+        {
+          "blank": "Jurisdiction",
+          "accepted": [
+            "jurisdiction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloze2",
+      "body": "{{Hegemony}} is dominance that becomes cultural common sense.",
+      "answers": [
+        {
+          "blank": "Hegemony",
+          "accepted": [
+            "hegemony"
+          ]
+        }
+      ]
+    }
+  ],
+  "conceptConstellation": {
+    "center": "Empire",
+    "near": [
+      "imperium",
+      "jurisdiction",
+      "sovereignty"
+    ],
+    "tension": [
+      "assimilation",
+      "tributary",
+      "hegemony"
+    ],
+    "corrective": [
+      "law",
+      "recognition",
+      "local knowledge",
+      "universalism"
+    ]
+  },
+  "conceptBracket": {
+    "id": "bracket8",
+    "concepts": [
+      "empire",
+      "imperium",
+      "jurisdiction",
+      "sovereignty",
+      "assimilation",
+      "hegemony",
+      "cosmopolis",
+      "universalism"
+    ],
+    "roundPrompts": [
+      "Which concept best explains rule at scale?",
+      "Which best restrains overreach?",
+      "Which should govern empire and law?"
+    ],
+    "modelWinner": "jurisdiction",
+    "rationale": "Jurisdiction gives command lawful scope and prevents empire from becoming mere appetite."
+  }
+}

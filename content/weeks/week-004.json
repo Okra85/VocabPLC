@@ -1,0 +1,524 @@
+{
+  "id": "week-004",
+  "number": 4,
+  "title": "Tragedy, Fate, and Human Blindness",
+  "difficultyBand": "Master's level",
+  "centralQuestion": "Why do intelligent people walk toward ruin?",
+  "coreConcepts": [
+    "tragedy",
+    "fate",
+    "hamartia",
+    "anagnorisis",
+    "necessity",
+    "blindness"
+  ],
+  "lessons": {
+    "core": {
+      "title": "The Intelligence of Tragedy",
+      "body": "Tragedy is not merely a sad ending. It is a disciplined form of knowledge. It shows action under pressure, character under exposure, and intelligence darkened by what it refuses to see. The tragic figure is often impressive, not foolish. Oedipus seeks truth. Antigone honors the dead. Lear wants love. Their ruin comes through partial vision hardened into certainty.\n\nWestern tragedy teaches that human beings can be morally serious and still misread reality. Fate is not always a chain imposed from outside. Sometimes it is the shape of a soul repeatedly choosing according to its own blindness."
+    },
+    "miniEssay": {
+      "title": "Recognition Too Late",
+      "body": "Anagnorisis, the moment of recognition, is one of tragedy's great instruments. The hero sees, but after action has ripened into consequence. This belated knowledge is severe because it denies the fantasy that insight is always timely.\n\nLeadership has its own tragic recognitions: the warning ignored, the adviser dismissed, the rival underestimated, the institutional habit mistaken for permanent strength. Tragedy trains the mind to respect signs before they become verdicts."
+    },
+    "synthesisEssay": {
+      "title": "Blindness and Necessity",
+      "body": "Tragedy joins freedom and necessity without simplifying either. The hero chooses, but not from an empty field. Inherited curses, civic pressures, divine commands, passions, and public expectations narrow the road. Yet the road is still walked by a soul.\n\nThe mature lesson is not despair. Tragedy makes judgment more exact. It teaches that confidence needs interrogation, that noble motives may conceal destructive excess, and that the moment of recognition should be sought before ruin makes it obvious."
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "tragedy",
+      "term": "tragedy",
+      "definition": "A serious dramatic form in which action reveals ruin, recognition, and moral order.",
+      "etymology": "From Greek tragoidia, goat-song, associated with ritual drama.",
+      "example": "The scandal became tragedy when every attempted correction deepened the wound.",
+      "historicalAnchor": "Athenian tragedy educated citizens through public drama.",
+      "literaryAnchor": "Oedipus Rex shows inquiry turning into self-discovery.",
+      "philosophicalAnchor": "Tragedy tests whether suffering can disclose truth.",
+      "synonyms": [
+        "catastrophe"
+      ],
+      "antonyms": [
+        "comedy"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "fate",
+      "term": "fate",
+      "definition": "A pattern of necessity that limits or governs action.",
+      "etymology": "From Latin fatum, that which has been spoken.",
+      "example": "He called it fate, though it was partly habit repeated under pressure.",
+      "historicalAnchor": "Ancient cultures often read public disaster through fate and divine order.",
+      "literaryAnchor": "Greek heroes struggle inside prophecies they cannot simply escape.",
+      "philosophicalAnchor": "Fate raises the problem of freedom under necessity.",
+      "synonyms": [
+        "destiny"
+      ],
+      "antonyms": [
+        "chance"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "hamartia",
+      "term": "hamartia",
+      "definition": "A tragic error, missing of the mark, or flaw in judgment.",
+      "etymology": "From Greek hamartanein, to miss the mark.",
+      "example": "His hamartia was not ambition alone but contempt for warning.",
+      "historicalAnchor": "Public disasters often begin with a repeated error normalized by success.",
+      "literaryAnchor": "Oedipus' strength as investigator becomes part of his undoing.",
+      "philosophicalAnchor": "Aristotle uses hamartia to explain tragic reversal without simple villainy.",
+      "synonyms": [
+        "error"
+      ],
+      "antonyms": [
+        "insight"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "anagnorisis",
+      "term": "anagnorisis",
+      "definition": "A recognition or discovery that changes ignorance into knowledge.",
+      "etymology": "From Greek anagnorizein, to recognize again.",
+      "example": "The audit produced anagnorisis: the admired system had rewarded deception.",
+      "historicalAnchor": "States often recognize decline only after symptoms become crises.",
+      "literaryAnchor": "Lear's recognition comes after authority has been squandered.",
+      "philosophicalAnchor": "Recognition dramatizes knowledge arriving through suffering.",
+      "synonyms": [
+        "recognition"
+      ],
+      "antonyms": [
+        "ignorance"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "peripeteia",
+      "term": "peripeteia",
+      "definition": "A reversal of fortune produced by the action itself.",
+      "etymology": "From Greek peripiptein, to fall around or suddenly change.",
+      "example": "The purge meant to secure loyalty caused peripeteia by uniting rivals.",
+      "historicalAnchor": "Military overreach often turns victory into reversal.",
+      "literaryAnchor": "Oedipus' search for the criminal reveals himself.",
+      "philosophicalAnchor": "Reversal exposes the limits of human foresight.",
+      "synonyms": [
+        "reversal"
+      ],
+      "antonyms": [
+        "continuity"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "catharsis",
+      "term": "catharsis",
+      "definition": "Purification, clarification, or release through tragic emotion.",
+      "etymology": "From Greek katharsis, cleansing or purgation.",
+      "example": "The public hearing offered catharsis only after truth was named.",
+      "historicalAnchor": "Greek drama gave civic form to pity and fear.",
+      "literaryAnchor": "Tragic endings leave terror clarified by order.",
+      "philosophicalAnchor": "Aristotle connects tragedy with catharsis of pity and fear.",
+      "synonyms": [
+        "purification"
+      ],
+      "antonyms": [
+        "pollution"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "necessity",
+      "term": "necessity",
+      "definition": "Constraint that cannot be ignored without consequence.",
+      "etymology": "From Latin necessitas, compulsion or inevitability.",
+      "example": "Necessity forced a decision, but did not excuse blindness.",
+      "historicalAnchor": "Statesmen often invoke necessity in war and crisis.",
+      "literaryAnchor": "Tragedy gives necessity a dramatic body.",
+      "philosophicalAnchor": "Ethics asks how freedom acts under constraint.",
+      "synonyms": [
+        "constraint"
+      ],
+      "antonyms": [
+        "contingency"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "blindness",
+      "term": "blindness",
+      "definition": "Failure to perceive morally relevant reality.",
+      "etymology": "From Old English blind, lacking sight; extended to mental darkness.",
+      "example": "His blindness was selective: he saw rivals clearly and friends falsely.",
+      "historicalAnchor": "Declining regimes often cannot see what their rituals conceal.",
+      "literaryAnchor": "Physical blindness in tragedy often reveals inward sight.",
+      "philosophicalAnchor": "Self-knowledge begins by noticing one's own evasions.",
+      "synonyms": [
+        "ignorance"
+      ],
+      "antonyms": [
+        "recognition"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "nemesis",
+      "term": "nemesis",
+      "definition": "Retributive consequence that answers excess.",
+      "etymology": "From Greek Nemesis, the goddess of righteous distribution.",
+      "example": "The firm's nemesis was the compliance system it had mocked.",
+      "historicalAnchor": "Imperial overreach often creates its own avenger.",
+      "literaryAnchor": "Nemesis follows hubris in Greek imagination.",
+      "philosophicalAnchor": "The concept suggests moral proportion embedded in consequence.",
+      "synonyms": [
+        "retribution"
+      ],
+      "antonyms": [
+        "impunity"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "pathos",
+      "term": "pathos",
+      "definition": "Suffering, passion, or emotional appeal.",
+      "etymology": "From Greek pathos, suffering or experience.",
+      "example": "The speech had pathos because grief was disciplined by truth.",
+      "historicalAnchor": "Public mourning can become political instruction.",
+      "literaryAnchor": "Tragedy uses pathos to make judgment felt.",
+      "philosophicalAnchor": "Rhetoric treats pathos as one mode of persuasion.",
+      "synonyms": [
+        "suffering"
+      ],
+      "antonyms": [
+        "detachment"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "passage": {
+    "title": "Before Recognition",
+    "body": "The tragic man is not blind because no signs exist. The signs are usually abundant: the loyal servant hesitates, the old law resists, the dream troubles sleep, the enemy speaks one true sentence, the child recoils, the city murmurs. He is blind because the signs threaten the story by which he lives. He asks for truth as long as truth promises triumph. When truth demands surrender, he calls it treachery.\n\nTragedy gives this blindness form. The hero often possesses real greatness: courage, intelligence, rank, eloquence, or piety. Yet greatness narrows when it refuses correction. A ruler who identifies himself with law cannot hear justice against his decree. A seeker of knowledge cannot imagine that inquiry may reveal his own guilt. A warrior who lives by honor cannot distinguish disgrace from moral exposure. Recognition arrives, but late. The mind finally sees the pattern after action has hardened into consequence."
+  },
+  "historicalParallel": {
+    "title": "Athens in Sicily",
+    "body": "The Sicilian Expedition of 415-413 BC became one of the great historical examples of democratic overreach. Athens, already deep in the Peloponnesian War, voted to send a massive expedition westward against Syracuse. The plan promised wealth, strategic advantage, and imperial glory. It also required Athens to project power across great distance against a difficult enemy while still facing Sparta nearer home.\n\nThucydides presents the decision with tragic intelligence. Nicias warned against the scale and risk of the campaign, but his attempt to frighten the assembly into caution backfired; the Athenians enlarged the expedition. Alcibiades embodied brilliance and appetite, urging ambition while carrying private scandal. Once in Sicily, divided command, local resistance, Spartan intervention, disease, and logistical strain turned imperial confidence into catastrophe. Athens did not merely lose ships and men. It exposed a deeper blindness: success had taught the city to confuse possibility with wisdom."
+  },
+  "leadershipCase": {
+    "title": "The Ignored Warning",
+    "body": "A hospital administrator receives repeated safety warnings but dismisses them because previous inspections were successful. The tragic structure is not lack of intelligence but loyalty to a comforting pattern."
+  },
+  "rhetoricInsight": {
+    "title": "Foreshadowing",
+    "body": "Foreshadowing plants signs before consequence. In argument, it trains the reader to ask what present details may become future verdicts."
+  },
+  "retrievalBrief": "Retrieve tragedy terms by asking what is hidden, what reverses, what is recognized, and what consequence answers excess.",
+  "scenarios": {
+    "modern": [
+      {
+        "id": "m1",
+        "prompt": "A board ignores small safety failures because revenue is rising.",
+        "bestConcept": "blindness",
+        "distractors": [
+          "catharsis",
+          "pathos",
+          "honor"
+        ],
+        "rationale": "Success hides morally relevant signs."
+      },
+      {
+        "id": "m2",
+        "prompt": "A reform intended to silence dissent creates a unified opposition.",
+        "bestConcept": "peripeteia",
+        "distractors": [
+          "equity",
+          "valor",
+          "nomos"
+        ],
+        "rationale": "The action produces reversal."
+      },
+      {
+        "id": "m3",
+        "prompt": "An inquiry reveals that the investigator caused the original harm.",
+        "bestConcept": "anagnorisis",
+        "distractors": [
+          "kleos",
+          "clemency",
+          "dignitas"
+        ],
+        "rationale": "Ignorance changes into self-knowledge."
+      },
+      {
+        "id": "m4",
+        "prompt": "A public apology finally names the suffering that was denied.",
+        "bestConcept": "catharsis",
+        "distractors": [
+          "fate",
+          "ambition",
+          "desert"
+        ],
+        "rationale": "Emotion is clarified by truth."
+      },
+      {
+        "id": "m5",
+        "prompt": "A leader claims emergency constraint while still choosing cruel means.",
+        "bestConcept": "necessity",
+        "distractors": [
+          "magnificence",
+          "shame",
+          "kleos"
+        ],
+        "rationale": "Constraint matters but does not erase judgment."
+      }
+    ],
+    "historical": [
+      {
+        "id": "h1",
+        "prompt": "Athenian confidence turns into disaster in Sicily.",
+        "bestConcept": "nemesis",
+        "distractors": [
+          "equity",
+          "honor",
+          "clemency"
+        ],
+        "rationale": "Overreach receives destructive answer."
+      },
+      {
+        "id": "h2",
+        "prompt": "A regime interprets every warning as enemy propaganda.",
+        "bestConcept": "blindness",
+        "distractors": [
+          "valor",
+          "justice",
+          "dignitas"
+        ],
+        "rationale": "The system refuses disconfirming signs."
+      },
+      {
+        "id": "h3",
+        "prompt": "An empire's victory creates obligations it cannot sustain.",
+        "bestConcept": "peripeteia",
+        "distractors": [
+          "pathos",
+          "eunomia",
+          "restraint"
+        ],
+        "rationale": "Success turns into reversal."
+      },
+      {
+        "id": "h4",
+        "prompt": "A treaty imposes conditions that later become unavoidable conflict.",
+        "bestConcept": "fate",
+        "distractors": [
+          "equity",
+          "kleos",
+          "magnificence"
+        ],
+        "rationale": "A spoken settlement becomes constraining pattern."
+      },
+      {
+        "id": "h5",
+        "prompt": "Public mourning becomes a lesson in civic limits.",
+        "bestConcept": "pathos",
+        "distractors": [
+          "desert",
+          "authority",
+          "nomos"
+        ],
+        "rationale": "Suffering becomes persuasive knowledge."
+      }
+    ],
+    "literary": [
+      {
+        "id": "l1",
+        "prompt": "Oedipus discovers the criminal is himself.",
+        "bestConcept": "anagnorisis",
+        "distractors": [
+          "honor",
+          "equity",
+          "valor"
+        ],
+        "rationale": "Recognition arrives through inquiry."
+      },
+      {
+        "id": "l2",
+        "prompt": "Macbeth's crown becomes the instrument of torment.",
+        "bestConcept": "nemesis",
+        "distractors": [
+          "clemency",
+          "dignitas",
+          "eunomia"
+        ],
+        "rationale": "The desired prize answers the crime."
+      },
+      {
+        "id": "l3",
+        "prompt": "Lear understands love after giving power to flattery.",
+        "bestConcept": "hamartia",
+        "distractors": [
+          "jurisprudence",
+          "kleos",
+          "magnificence"
+        ],
+        "rationale": "A judgment error has structured the ruin."
+      },
+      {
+        "id": "l4",
+        "prompt": "The audience sees danger before the hero does.",
+        "bestConcept": "foreshadowing",
+        "distractors": [
+          "desert",
+          "nomos",
+          "valor"
+        ],
+        "rationale": "Signs are placed before the consequence."
+      },
+      {
+        "id": "l5",
+        "prompt": "A noble motive becomes destructive because it refuses limits.",
+        "bestConcept": "tragedy",
+        "distractors": [
+          "comedy",
+          "apathy",
+          "convenience"
+        ],
+        "rationale": "Serious action discloses ruin and moral order."
+      }
+    ]
+  },
+  "argumentDuels": [
+    {
+      "id": "duel1",
+      "claimA": "Tragedy teaches that humans have no freedom.",
+      "claimB": "Tragedy teaches that freedom acts within limits it often misreads.",
+      "stronger": "B",
+      "criteria": [
+        "precision",
+        "dramatic fit",
+        "philosophical balance"
+      ]
+    },
+    {
+      "id": "duel2",
+      "claimA": "Recognition is valuable only if it prevents disaster.",
+      "claimB": "Recognition can disclose truth even when it arrives too late to prevent disaster.",
+      "stronger": "B",
+      "criteria": [
+        "tragic structure",
+        "conceptual accuracy",
+        "rhetorical force"
+      ]
+    }
+  ],
+  "crosswords": [
+    {
+      "id": "cw1",
+      "title": "Tragic Terms",
+      "size": 7,
+      "entries": [
+        {
+          "term": "fate",
+          "clue": "Necessity spoken",
+          "row": 0,
+          "col": 0,
+          "direction": "across"
+        },
+        {
+          "term": "pathos",
+          "clue": "Suffering appeal",
+          "row": 0,
+          "col": 0,
+          "direction": "down"
+        }
+      ]
+    },
+    {
+      "id": "cw2",
+      "title": "Recognition",
+      "size": 7,
+      "entries": [
+        {
+          "term": "nemesis",
+          "clue": "Answer to excess",
+          "row": 0,
+          "col": 0,
+          "direction": "across"
+        },
+        {
+          "term": "error",
+          "clue": "Missed mark",
+          "row": 0,
+          "col": 2,
+          "direction": "down"
+        }
+      ]
+    }
+  ],
+  "clozeTests": [
+    {
+      "id": "cloze1",
+      "body": "{{Anagnorisis}} is recognition that changes ignorance into knowledge.",
+      "answers": [
+        {
+          "blank": "Anagnorisis",
+          "accepted": [
+            "anagnorisis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloze2",
+      "body": "{{Hamartia}} names the missed mark that helps produce tragic ruin.",
+      "answers": [
+        {
+          "blank": "Hamartia",
+          "accepted": [
+            "hamartia"
+          ]
+        }
+      ]
+    }
+  ],
+  "conceptConstellation": {
+    "center": "Tragedy",
+    "near": [
+      "hamartia",
+      "anagnorisis",
+      "peripeteia"
+    ],
+    "tension": [
+      "fate",
+      "necessity",
+      "blindness"
+    ],
+    "corrective": [
+      "recognition",
+      "measure",
+      "counsel",
+      "humility"
+    ]
+  },
+  "conceptBracket": {
+    "id": "bracket4",
+    "concepts": [
+      "tragedy",
+      "fate",
+      "hamartia",
+      "anagnorisis",
+      "peripeteia",
+      "catharsis",
+      "necessity",
+      "nemesis"
+    ],
+    "roundPrompts": [
+      "Which concept best explains ruin?",
+      "Which concept best names late knowledge?",
+      "Which concept should govern tragic interpretation?"
+    ],
+    "modelWinner": "anagnorisis",
+    "rationale": "Recognition converts suffering into intelligible judgment."
+  }
+}

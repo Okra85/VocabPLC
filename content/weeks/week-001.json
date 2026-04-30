@@ -1,0 +1,134 @@
+{
+  "id": "week-001",
+  "number": 1,
+  "title": "Power, Prudence, and the Burden of Rule",
+  "difficultyBand": "Master's level",
+  "centralQuestion": "When does strength become wisdom?",
+  "coreConcepts": ["prudence", "legitimacy", "authority", "ambition", "hubris", "civic virtue"],
+  "lessons": {
+    "core": {
+      "title": "Strength Under Judgment",
+      "body": "Power is the capacity to make something happen. Prudence is the discipline that asks whether it should happen, when it should happen, and what hidden costs will follow. Much of Western thought begins with this tension. Achilles has force but not patience. Odysseus has cunning but must learn restraint. Plato distrusts appetite in rulers because appetite makes the city resemble the disordered soul. Aristotle gives the name prudence to practical wisdom: the trained judgment that sees particulars clearly.\n\nHistory confirms the old warning. A ruler may win a battle and lose legitimacy. A minister may silence opposition and teach the public to distrust every official word. A commander may act swiftly and still act foolishly if speed replaces judgment. The question is never merely, Can I impose my will? The harder question is, What form of order will remain after I have imposed it?\n\nLiterature preserves this problem in living images. Shakespeare's Macbeth understands ambition but not measure. Sophocles' Creon understands law but not human limits. Homeric kings constantly negotiate honor, rage, persuasion, and necessity. The greatest leaders are rarely those without appetite. They are those whose appetite has been educated by duty.\n\nThis week studies power as a moral and intellectual burden. The vocabulary is not ornamental. Words such as prudence, legitimacy, magnanimity, expediency, and hubris name recurring structures in public life. To possess the word is to notice the pattern. To notice the pattern is to think above the noise of events."
+    },
+    "miniEssay": {
+      "title": "Ambition Under Measure",
+      "body": "Ambition is not automatically vicious. Western literature would be thin without men and women who reached beyond their station. The danger lies in ambition's impatience with reality. It begins by refusing limits, then by despising counsel, then by treating resistance as treason.\n\nMachiavelli understood that public action cannot be judged only by private innocence. Yet even Machiavelli's prince must care about appearances, alliances, timing, and necessity. Raw will is not enough. The successful actor reads the field. He knows that every act changes the conditions under which the next act must occur.\n\nPrudence therefore differs from timidity. The prudent leader may act boldly, but boldness is disciplined by circumstance. Washington's greatness was not that he won every engagement. His greatness was that he understood the political meaning of endurance. Caesar crossed the Rubicon with astonishing nerve, but his victory damaged the republican order that had made Roman greatness possible."
+    },
+    "synthesisEssay": {
+      "title": "The Whole Field",
+      "body": "The week's materials converge on one claim: power without prudence becomes self-defeating. Philosophy gives the abstract structure. Plato worries that the tyrannical soul, ruled by appetite, will reproduce tyranny in the city. Aristotle offers a corrective: practical wisdom, trained by experience, aims at the fitting action in concrete circumstances.\n\nHistory supplies the evidence. Roman ambition produced glory, but when personal command overran civic restraint, glory curdled into civil war. Modern institutions face the same pattern in less theatrical form. A leader who wins every internal fight by humiliation may gain compliance while destroying trust.\n\nLiterature gives the drama. Macbeth gains the crown and loses the world. Creon defends order and violates the deeper order that makes law humane. Odysseus survives not through force alone, but through adaptive intelligence, patience, and command of speech. Prudence is the virtue that sees the whole field: visible advantage, invisible cost, immediate necessity, and future consequence."
+    }
+  },
+  "vocabulary": [
+    { "id": "prudence", "term": "prudence", "definition": "Practical wisdom that chooses fitting action in concrete circumstances.", "etymology": "From Latin prudentia, contracted from providentia, meaning foresight or seeing ahead.", "example": "The commander showed prudence by declining a brilliant attack that would have exhausted his army.", "historicalAnchor": "Washington's strategic restraint made endurance a political weapon. He treated survival as a form of victory.", "literaryAnchor": "Odysseus survives because cunning is joined to patience. His intelligence waits for the right hour.", "philosophicalAnchor": "Aristotle treats phronesis as practical judgment among particulars, not abstract cleverness.", "synonyms": ["judgment"], "antonyms": ["rashness"], "difficulty": 1 },
+    { "id": "legitimacy", "term": "legitimacy", "definition": "The recognized right to command obedience.", "etymology": "From Latin legitimus, lawful, rooted in lex, law.", "example": "The decree was efficient, but its secrecy wounded legitimacy.", "historicalAnchor": "The late Roman Republic weakened when military loyalty eclipsed civic consent.", "literaryAnchor": "King Lear discovers that title without moral recognition is brittle.", "philosophicalAnchor": "Political philosophy asks why citizens owe obedience rather than mere fear.", "synonyms": ["rightfulness"], "antonyms": ["usurpation"], "difficulty": 1 },
+    { "id": "magnanimity", "term": "magnanimity", "definition": "Greatness of soul expressed through noble and proportionate action.", "etymology": "From Latin magnus, great, and animus, soul or spirit.", "example": "After victory, her magnanimity prevented triumph from becoming vengeance.", "historicalAnchor": "Classical commanders were praised when victory was joined to restraint.", "literaryAnchor": "Shakespeare often tests whether high rank contains a genuinely great soul.", "philosophicalAnchor": "Aristotle calls magnanimity a crown of virtues because it requires scale and worthiness.", "synonyms": ["nobility"], "antonyms": ["pettiness"], "difficulty": 1 },
+    { "id": "hubris", "term": "hubris", "definition": "Arrogant excess that violates measure and invites reversal.", "etymology": "From Greek hybris, violent insolence or outrage.", "example": "The reformer's hubris was to confuse opposition with moral inferiority.", "historicalAnchor": "Athens' Sicilian expedition became a classical warning against overreach.", "literaryAnchor": "Macbeth's ascent turns into ruin because ambition rejects limit.", "philosophicalAnchor": "Greek ethics treats measure as a condition of wisdom.", "synonyms": ["overweening"], "antonyms": ["humility"], "difficulty": 1 },
+    { "id": "expediency", "term": "expediency", "definition": "Immediate usefulness chosen for advantage, often at moral cost.", "etymology": "From Latin expedire, to free the feet or make ready.", "example": "The expediency of censorship soon became a habit of rule.", "historicalAnchor": "Emergency governments often defend temporary measures that become permanent instruments.", "literaryAnchor": "Richard III lives by expediency until calculation can no longer master consequence.", "philosophicalAnchor": "Ethics asks when utility becomes a violation of justice.", "synonyms": ["convenience"], "antonyms": ["principle"], "difficulty": 1 },
+    { "id": "authority", "term": "authority", "definition": "Power recognized as rightful, credible, and worthy of attention.", "etymology": "From Latin auctoritas, influence, authorship, or originating force.", "example": "Her authority increased because she explained the standard before enforcing it.", "historicalAnchor": "The Roman Senate possessed auctoritas beyond mere force.", "literaryAnchor": "Prospero's authority depends on knowledge, command, and eventual restraint.", "philosophicalAnchor": "Authority differs from coercion because it claims reasons for obedience.", "synonyms": ["command"], "antonyms": ["impotence"], "difficulty": 1 },
+    { "id": "counsel", "term": "counsel", "definition": "Deliberative advice that tests action before commitment.", "etymology": "From Latin consilium, plan, deliberation, or assembly.", "example": "A ruler who punishes counsel soon hears only flattery.", "historicalAnchor": "Successful cabinets preserve dissent before crisis hardens choice.", "literaryAnchor": "Kent counsels Lear and is banished for telling the truth.", "philosophicalAnchor": "Reason requires conversation with reality, not merely command over it.", "synonyms": ["advice"], "antonyms": ["flattery"], "difficulty": 1 },
+    { "id": "temperance", "term": "temperance", "definition": "Self-command that moderates appetite, anger, and impulse.", "etymology": "From Latin temperare, to mix rightly or moderate.", "example": "Temperance kept his anger from becoming policy.", "historicalAnchor": "Republican cultures praise restraint because liberty requires self-rule.", "literaryAnchor": "Achilles' wrath shows the political cost of ungoverned passion.", "philosophicalAnchor": "Plato presents temperance as harmony within the soul.", "synonyms": ["moderation"], "antonyms": ["excess"], "difficulty": 1 },
+    { "id": "ambition", "term": "ambition", "definition": "The desire for rank, honor, influence, or achievement.", "etymology": "From Latin ambitio, going around to solicit votes or favor.", "example": "Ambition built the institution, but prudence kept it from devouring itself.", "historicalAnchor": "Caesar's ambition remade Rome while wounding republican order.", "literaryAnchor": "Macbeth's ambition becomes murderous when separated from moral judgment.", "philosophicalAnchor": "Political ethics asks whether aspiration serves the common good or the self alone.", "synonyms": ["aspiration"], "antonyms": ["apathy"], "difficulty": 1 },
+    { "id": "civic-virtue", "term": "civic virtue", "definition": "Character ordered toward the public good rather than private appetite.", "etymology": "Civic derives from Latin civis, citizen; virtue from virtus, excellence or manly worth.", "example": "Civic virtue appeared when the official resigned power after completing the task.", "historicalAnchor": "Cincinnatus symbolized office as service rather than possession.", "literaryAnchor": "Brutus is tragic because public duty and political blindness mingle in him.", "philosophicalAnchor": "Republican thought depends on citizens capable of restraining themselves.", "synonyms": ["public spirit"], "antonyms": ["self-interest"], "difficulty": 1 }
+  ],
+  "passage": {
+    "title": "The City and the Soul",
+    "body": "A city is not ruined first by its enemies, but by the disorder of those who govern it. When appetite takes the throne of the soul, law becomes its servant, counsel becomes an annoyance, and honor becomes a mask for desire. The just ruler must therefore rule himself before he presumes to rule others. For the city magnifies the soul: a disordered man in private becomes a public danger when armed with command."
+  },
+  "historicalParallel": {
+    "title": "Caesar at the Rubicon",
+    "body": "Julius Caesar's crossing of the Rubicon in 49 BC was not a picturesque gesture by an impulsive soldier. It was the decisive act of a commander whose legal authority, political alliances, personal dignity, and military power had become entangled with the fate of the Roman Republic.\n\nFor nearly a decade Caesar had governed in Gaul, where he won immense military prestige, wealth, and the loyalty of seasoned legions. His victories made him indispensable to his soldiers and alarming to his enemies. At Rome, the older republican balance had already been strained by the rivalry of powerful men: Pompey, Crassus, and Caesar had dominated politics through the informal arrangement later called the First Triumvirate. After Crassus died and Pompey moved closer to Caesar's senatorial opponents, the question became whether Caesar would return to Rome as a private citizen vulnerable to prosecution or retain command long enough to protect his dignitas.\n\nThe immediate constitutional fight concerned command, prosecution, and timing. Caesar wanted to stand for a second consulship without surrendering his provincial command first. His opponents wanted him to disband his army before reentering ordinary civic life. In January 49 BC the Senate, under pressure from the anti-Caesarian faction and with Pompey as its military hope, moved toward emergency measures. Tribunes sympathetic to Caesar fled Rome, giving Caesar a public argument that the rights of the people and their representatives had been violated. That argument was politically useful, but it did not change the basic fact that he answered a civil dispute with soldiers.\n\nThe Rubicon mattered because it marked the boundary of Caesar's province. A Roman commander with imperium could lead troops within his assigned province, but bringing an army into Italy was a direct challenge to civil authority. Caesar could argue that his enemies had acted unjustly and that the tribunes who supported him had been threatened. Yet his remedy made the army, not republican law, the final judge of the dispute. Ancient writers later associated the crossing with the phrase 'the die is cast,' though the exact wording is uncertain. The meaning is not uncertain: Caesar chose irreversible action.\n\nThe consequences were immense. Pompey and many senators abandoned Italy, civil war followed, and Caesar eventually defeated Pompey at Pharsalus in 48 BC. Caesar's later dictatorship, reforms, clemency, honors, and assassination in 44 BC all unfolded from a republic already unable to contain military greatness inside civic forms. The Rubicon therefore matters less as melodrama than as political anatomy: it shows how ambition, grievance, emergency, legality, and personal command can combine until a leader convinces himself that saving his standing requires breaking the order that gave standing meaning."
+  },
+  "leadershipCase": {
+    "title": "The Severe Headmaster",
+    "body": "A new headmaster inherits a failing academy. Faculty are divided, standards have collapsed, and parents demand visible action. He can dismiss several teachers immediately, winning applause, or spend a term building evidence, alliances, and a new standard of instruction. The prudent course may include severity, but severity must be timed so reform appears lawful rather than personal."
+  },
+  "rhetoricInsight": {
+    "title": "Antithesis",
+    "body": "Antithesis clarifies moral conflict by placing opposing ideas in balanced form: he won the crown, but lost the kingdom. This week's arguments use antithesis to expose false victories: command without trust, speed without judgment, order without legitimacy."
+  },
+  "retrievalBrief": "Retrieve the terms as instruments of judgment. Ask which concept governs the situation, which concept tempts the actor, and which concept restrains failure.",
+  "scenarios": {
+    "modern": [
+      { "id": "m1", "prompt": "A CEO silences internal critics before a dangerous product launch.", "bestConcept": "legitimacy", "distractors": ["temperance", "magnanimity", "civic virtue"], "rationale": "Silencing criticism may produce speed, but it damages recognized authority and trust." },
+      { "id": "m2", "prompt": "A mayor extends emergency powers long after the emergency has faded.", "bestConcept": "expediency", "distractors": ["counsel", "prudence", "magnanimity"], "rationale": "The useful temporary measure becomes a standing temptation." },
+      { "id": "m3", "prompt": "A principal raises standards after publicly explaining the reasons.", "bestConcept": "authority", "distractors": ["hubris", "ambition", "expediency"], "rationale": "The command gains force because its reason is visible." },
+      { "id": "m4", "prompt": "A movement wins by humiliating every possible ally.", "bestConcept": "hubris", "distractors": ["civic virtue", "counsel", "temperance"], "rationale": "The victory destroys the relationships needed to govern afterward." },
+      { "id": "m5", "prompt": "A general delays attack until supply lines are secure.", "bestConcept": "prudence", "distractors": ["ambition", "authority", "expediency"], "rationale": "The choice treats timing and consequence as part of action." }
+    ],
+    "historical": [
+      { "id": "h1", "prompt": "Caesar crosses the Rubicon with loyal troops.", "bestConcept": "ambition", "distractors": ["temperance", "counsel", "civic virtue"], "rationale": "Personal elevation overwhelms constitutional limit." },
+      { "id": "h2", "prompt": "Cincinnatus lays down emergency power and returns to private life.", "bestConcept": "civic virtue", "distractors": ["hubris", "expediency", "ambition"], "rationale": "Office is treated as service rather than possession." },
+      { "id": "h3", "prompt": "Athens launches the Sicilian expedition after imperial confidence swells.", "bestConcept": "hubris", "distractors": ["authority", "temperance", "counsel"], "rationale": "Confidence becomes overreach." },
+      { "id": "h4", "prompt": "Washington resigns command after the Revolution.", "bestConcept": "legitimacy", "distractors": ["expediency", "ambition", "hubris"], "rationale": "Renunciation strengthens the lawful order." },
+      { "id": "h5", "prompt": "Augustus preserves republican forms while holding supreme power.", "bestConcept": "authority", "distractors": ["apathy", "rashness", "temperance"], "rationale": "Power needs forms that make obedience intelligible." }
+    ],
+    "literary": [
+      { "id": "l1", "prompt": "Macbeth murders Duncan to seize the crown.", "bestConcept": "ambition", "distractors": ["civic virtue", "prudence", "counsel"], "rationale": "Aspiration breaks from legitimacy and restraint." },
+      { "id": "l2", "prompt": "Creon refuses burial rites and mistakes his decree for justice itself.", "bestConcept": "hubris", "distractors": ["magnanimity", "prudence", "civic virtue"], "rationale": "The ruler's certainty exceeds human and divine limit." },
+      { "id": "l3", "prompt": "Odysseus waits before striking the suitors.", "bestConcept": "prudence", "distractors": ["ambition", "expediency", "hubris"], "rationale": "Delay serves judgment rather than fear." },
+      { "id": "l4", "prompt": "Lear banishes the truth-teller and rewards flattery.", "bestConcept": "counsel", "distractors": ["legitimacy", "authority", "temperance"], "rationale": "The tragedy begins when counsel is rejected." },
+      { "id": "l5", "prompt": "Brutus joins the conspiracy against Caesar from public duty and poor judgment.", "bestConcept": "civic virtue", "distractors": ["expediency", "apathy", "temperance"], "rationale": "The motive is public, though the prudential reading is flawed." }
+    ]
+  },
+  "argumentDuels": [
+    { "id": "duel1", "claimA": "Order is the first duty of leadership.", "claimB": "Legitimacy is the first condition of durable order.", "stronger": "B", "criteria": ["conceptual accuracy", "historical fit", "rhetorical force"] },
+    { "id": "duel2", "claimA": "Ambition corrupts all rulers.", "claimB": "Ambition corrupts rulers when severed from prudence.", "stronger": "B", "criteria": ["precision", "literary evidence", "philosophical fit"] }
+  ],
+  "crosswords": [
+    { "id": "cw1", "title": "Rule and Restraint", "size": 7, "entries": [{ "term": "prudence", "clue": "Practical wisdom", "row": 0, "col": 0, "direction": "across" }, { "term": "hubris", "clue": "Arrogant excess", "row": 0, "col": 0, "direction": "down" }] },
+    { "id": "cw2", "title": "Public Order", "size": 7, "entries": [{ "term": "counsel", "clue": "Deliberative advice", "row": 1, "col": 0, "direction": "across" }, { "term": "civic", "clue": "Of the citizen", "row": 0, "col": 2, "direction": "down" }] }
+  ],
+  "clozeTests": [
+    { "id": "cloze1", "body": "A ruler without {{prudence}} mistakes motion for mastery.", "answers": [{ "blank": "prudence", "accepted": ["prudence"] }] },
+    { "id": "cloze2", "body": "When {{legitimacy}} decays, command must spend more force to achieve less obedience.", "answers": [{ "blank": "legitimacy", "accepted": ["legitimacy"] }] }
+  ],
+  "conceptConstellation": {
+    "center": "Power",
+    "near": ["authority", "legitimacy", "prudence"],
+    "tension": ["ambition", "expediency", "hubris"],
+    "corrective": ["temperance", "counsel", "civic virtue", "magnanimity"]
+  },
+  "conceptBracket": {
+    "id": "bracket1",
+    "concepts": ["prudence", "ambition", "legitimacy", "magnanimity", "hubris", "civic virtue", "expediency", "authority"],
+    "roundPrompts": ["Which concept best restrains power?", "Which concept best explains political failure?", "Which concept best governs crisis?"],
+    "modelWinner": "prudence",
+    "rationale": "Prudence governs the use of every other political capacity."
+  },
+  "highEndChallenge": {
+    "title": "The Academy Crisis",
+    "body": "A new headmaster inherits an academy that has lived for years on reputation rather than discipline. Its founders spoke of civic virtue, humane letters, and serious standards, but the faculty culture has grown soft. Several teachers inflate grades to avoid conflict. A small group of parents has learned that public pressure can bend policy. The students are intelligent, but they have been trained to treat rigor as personal hostility.\n\nThe headmaster's first crisis arrives when a senior teacher fails half of an advanced seminar for plagiarized work. The teacher is severe but accurate. Parents organize a campaign accusing the school of elitism and cruelty. Two trustees urge the headmaster to reverse the grades immediately, arguing that the academy cannot afford reputational damage during admissions season. Another adviser warns that capitulation will teach every future student that standards are negotiable under pressure.\n\nThe case has an old shape. Caesar could claim injury and necessity before crossing the Rubicon, but his remedy made lawful process subordinate to personal command. Creon could claim public order, but he confused his decree with justice itself. Macbeth could claim destiny, but ambition taught him to call appetite necessity. The headmaster must act, but the form of action will educate the institution. A merely forceful decision may win the week and lose the school.\n\nYour task is to sort visible advantage from invisible cost. Which concept should govern the decision? Which temptation is most dangerous? Which public explanation would preserve authority without turning reform into theatrical domination?",
+    "questions": [
+      {
+        "prompt": "Which concept should govern the whole decision?",
+        "answer": "prudence",
+        "choices": ["prudence", "ambition", "expediency", "hubris"],
+        "rationale": "Prudence governs timing, proportion, authority, and future consequence. It can include severity, but only severity ordered toward durable reform."
+      },
+      {
+        "prompt": "Which temptation is most dangerous for the headmaster?",
+        "answer": "expediency",
+        "choices": ["expediency", "civic virtue", "magnanimity", "counsel"],
+        "rationale": "Expediency would reverse the grades to relieve immediate pressure while weakening the standards that make the academy legitimate."
+      },
+      {
+        "prompt": "Which historical parallel best warns against solving an immediate problem by damaging the lawful order?",
+        "answer": "ambition",
+        "choices": ["ambition", "temperance", "counsel", "magnanimity"],
+        "rationale": "Caesar's ambition solved his personal danger while making military force the judge of a constitutional dispute."
+      },
+      {
+        "prompt": "Which public explanation would best preserve authority?",
+        "answer": "The academy will uphold the grades, review the evidence transparently, and explain that mercy may address individual circumstance but cannot erase the standard.",
+        "choices": [
+          "The academy will uphold the grades, review the evidence transparently, and explain that mercy may address individual circumstance but cannot erase the standard.",
+          "The academy will reverse the grades because institutional reputation matters more than one seminar.",
+          "The academy will fire the teacher immediately to show parents that leadership is responsive.",
+          "The academy will refuse all conversation because any criticism of standards is illegitimate."
+        ],
+        "rationale": "This answer joins authority to evidence, transparency, and proportion. It avoids both surrender and theatrical severity."
+      }
+    ]
+  }
+}
