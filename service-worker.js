@@ -1,4 +1,4 @@
-const CACHE_NAME = "offline-great-courses-v13";
+const CACHE_NAME = "offline-great-courses-v14";
 const APP_SHELL = [
   "./",
   "./index.html",

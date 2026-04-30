@@ -1,6 +1,7 @@
 const DB_NAME = "offline-great-courses";
 const DB_VERSION = 1;
 const STORE = "progress";
+const ACTIVITY_REVISION = "r2";
 const DEFAULT_PROGRESS = {
   currentWeek: 1,
   currentDay: 1,
@@ -147,7 +148,7 @@ async function resetToWeekOneDayOne() {
 }
 
 function activityKey(gameKey) {
-  return `${state.week.id}-day-${state.progress.currentDay}-${gameKey}`;
+  return `${state.week.id}-day-${state.progress.currentDay}-${ACTIVITY_REVISION}-${gameKey}`;
 }
 
 function activityMaxPoints() {
@@ -619,7 +620,9 @@ function renderProgress() {
 }
 
 function activityNameFromKey(key) {
-  const game = key.split("-").slice(4).join("-");
+  const parts = key.split("-");
+  const revisionIndex = parts.findIndex((part) => /^r\d+$/.test(part));
+  const game = revisionIndex >= 0 ? parts.slice(revisionIndex + 1).join("-") : parts.slice(4).join("-");
   return labelForGame(game);
 }
 
@@ -687,36 +690,23 @@ function gameMarkup(key) {
   }
 
   if (key === "contextBlank" || key === "cloze") {
-    return gameCard("Context Fill-in-the-Blank", "Choose the correct vocabulary word for every full sentence.", vocab.map((v, index) =>
-      selectQuestion(index, blankSentence(v), v.term, seededShuffle(allTerms, `${seed}-${index}`), v.id, vocabularyExplanation(v))
-    ).join(""), key, attemptText);
+    return contextBlankGame(week, vocab, allTerms, seed, key, attemptText);
   }
 
   if (key === "passageCloze") {
-    const questions = week.clozeTests.map((item, index) => {
-      const answer = item.answers[0].accepted[0];
-      const vocabEntry = vocab.find((v) => v.term.toLowerCase() === answer.toLowerCase());
-      return selectQuestion(index, item.body.replace(/\{\{[^}]+\}\}/g, "_____"), answer, seededShuffle(allTerms, `${seed}-${index}`), answer, vocabEntry ? vocabularyExplanation(vocabEntry) : "The surrounding sentence points to the term that best completes the concept.");
-    }).join("");
-    return gameCard("Passage Cloze", "Complete each authored cloze sentence from the week.", questions, key, attemptText);
+    return passageClozeGame(week, vocab, allTerms, seed, key, attemptText);
   }
 
   if (key === "etymologyTrail") {
-    return gameCard("Etymology Trail", "Choose the word that belongs to each etymological path.", vocab.map((v, index) =>
-      selectQuestion(index, v.etymology, v.term, seededShuffle(allTerms, `${seed}-${index}`), v.id, `The etymology belongs to ${v.term}: ${v.definition}`)
-    ).join(""), key, attemptText);
+    return etymologyTrailGame(vocab, allTerms, seed, key, attemptText);
   }
 
   if (key === "synonymAntonym") {
-    return gameCard("Synonym / Antonym Grid", "Use synonym and antonym clues to recover the correct term.", vocab.map((v, index) =>
-      selectQuestion(index, `Synonym: <strong>${v.synonyms[0]}</strong>. Antonym: <strong>${v.antonyms[0]}</strong>.`, v.term, seededShuffle(allTerms, `${seed}-${index}`), v.id, `${v.term} means ${v.definition}`)
-    ).join(""), key, attemptText);
+    return synonymAntonymGame(vocab, allTerms, seed, key, attemptText);
   }
 
   if (key === "argumentDuel") {
-    return gameCard("Argument Duel", "Select the stronger argument in each duel.", week.argumentDuels.map((duel, index) =>
-      selectQuestion(index, `${duel.claimA}<br><br>${duel.claimB}<br><span class="meta">Criteria: ${duel.criteria.join(", ")}</span>`, duel.stronger, ["A", "B"], duel.id, `Claim ${duel.stronger} is stronger under these criteria: ${duel.criteria.join(", ")}.`)
-    ).join(""), key, attemptText);
+    return argumentDuelGame(week, seed, key, attemptText);
   }
 
   if (key === "microCrossword") {
@@ -750,9 +740,7 @@ function gameMarkup(key) {
     if (key === "conceptTournamentLite") {
       return conceptTournamentLiteGame(week, seed, key, attemptText);
     }
-    return gameCard(labelForGame(key), "Advance the concept that best survives each intellectual test.", bracket.roundPrompts.map((prompt, index) =>
-      selectQuestion(index, prompt, bracket.modelWinner, seededShuffle(bracket.concepts, `${seed}-${index}`), bracket.modelWinner, bracket.rationale)
-    ).join(""), key, attemptText);
+    return conceptBracketGame(week, seed, key, attemptText);
   }
 
   if (key === "conceptConstellation") {
@@ -874,6 +862,169 @@ function definitionDecoys(vocab) {
     id: `decoy-${entry.id}`,
     explanation: "This is a decoy definition: it sounds conceptually adjacent but does not define any listed term precisely."
   }));
+}
+
+function contextBlankGame(week, vocab, allTerms, seed, key, attemptText) {
+  const modes = [
+    {
+      label: "Historical Pressure",
+      build: (entry) => `${entry.historicalAnchor} In this setting, the missing concept is not decorative; it names the pressure shaping public action: _____.`
+    },
+    {
+      label: "Literary Recognition",
+      build: (entry) => `${entry.literaryAnchor} The scene asks the reader to recognize _____ as a pattern of character, not merely as a plot event.`
+    },
+    {
+      label: "Philosophical Distinction",
+      build: (entry) => `${entry.philosophicalAnchor} The precise term for this distinction is _____, because it names the governing form of judgment.`
+    }
+  ];
+  const questions = seededShuffle(vocab, seed).slice(0, 9).map((entry, index) => {
+    const mode = modes[index % modes.length];
+    const choices = [entry.term, ...seededShuffle(allTerms.filter((term) => term !== entry.term), `${seed}-context-${index}`).slice(0, 4)];
+    return selectQuestion(
+      index,
+      `<strong>${mode.label}</strong><br>${mode.build(entry)}`,
+      entry.term,
+      seededShuffle(choices, `${seed}-context-choices-${index}`),
+      entry.id,
+      `${entry.term} is correct because the sentence uses the word's conceptual force: ${entry.definition}`,
+      "The missing word is not merely associated with the topic. It must name the kind of pressure or judgment described by the historical, literary, or philosophical anchor."
+    );
+  }).join("");
+
+  return gameCard("Context Fill-in-the-Blank", "Three rounds of context: historical pressure, literary recognition, and philosophical distinction. The same vocabulary now has to work in different kinds of evidence.", questions, key, attemptText);
+}
+
+function passageClozeGame(week, vocab, allTerms, seed, key, attemptText) {
+  const passageText = `${week.passage.body} ${week.historicalParallel.body}`;
+  const presentTerms = vocab.filter((entry) => passageText.toLowerCase().includes(entry.term.toLowerCase().split(" ")[0]));
+  const sourceTerms = presentTerms.length >= 4 ? presentTerms : seededShuffle(vocab, seed).slice(0, 6);
+  const questions = sourceTerms.slice(0, 6).map((entry, index) => {
+    const sentence = passageSentenceForTerm(passageText, entry) || `${entry.historicalAnchor} ${entry.philosophicalAnchor}`;
+    return selectQuestion(
+      index,
+      `<strong>Passage Interpretation ${index + 1}</strong><br>${sentence}<br><span class="meta">Which concept best names the structure at work in this sentence?</span>`,
+      entry.term,
+      seededShuffle([entry.term, ...allTerms.filter((term) => term !== entry.term).slice(0, 4)], `${seed}-passage-${index}`),
+      entry.id,
+      `${entry.term} fits because it translates the passage from narrative detail into conceptual judgment: ${entry.definition}`,
+      "Read the sentence as argument, not decoration. Ask what relation of power, limit, order, or motive the passage is actually staging."
+    );
+  }).join("");
+
+  return gameCard("Passage Cloze", "Interpret the passage rather than merely filling blanks. Each item asks which concept converts a sentence into an argument.", questions, key, attemptText);
+}
+
+function passageSentenceForTerm(text, entry) {
+  const sentences = text.match(/[^.!?]+[.!?]+/g) || [];
+  const root = entry.term.toLowerCase().split(" ")[0];
+  return sentences.find((sentence) => sentence.toLowerCase().includes(root))?.trim();
+}
+
+function etymologyTrailGame(vocab, allTerms, seed, key, attemptText) {
+  const terms = seededShuffle(vocab, seed).slice(0, 6);
+  const questions = terms.flatMap((entry, index) => [
+    {
+      prompt: `<strong>Root Trail ${index + 1}</strong><br>${entry.etymology}<br><span class="meta">Which term carries this inherited meaning into modern judgment?</span>`,
+      answer: entry.term,
+      choices: [entry.term, ...allTerms.filter((term) => term !== entry.term).slice(0, 4)],
+      rationale: `${entry.term} carries the root history into a living intellectual distinction: ${entry.definition}`,
+      hint: "Work from root to meaning. The answer should preserve the older semantic grain, not merely sound like a related virtue or vice."
+    },
+    {
+      prompt: `<strong>Connotation Trail ${index + 1}</strong><br>${entry.example}<br><span class="meta">What kind of judgment does the sentence ask you to make?</span>`,
+      answer: entry.term,
+      choices: [entry.term, ...allTerms.filter((term) => term !== entry.term).slice(0, 4)],
+      rationale: `The example uses ${entry.term} in action, so the word's connotation is tested by circumstance rather than memorized in isolation.`,
+      hint: "Look for tone and moral direction. The sentence asks whether the action is restrained, excessive, legitimate, expedient, noble, or corrupt."
+    }
+  ]).map((question, index) =>
+    selectQuestion(index, question.prompt, question.answer, seededShuffle(question.choices, `${seed}-ety-q-${index}`), question.answer, question.rationale, question.hint)
+  ).join("");
+
+  return gameCard("Etymology Trail", "Follow each term from root meaning to moral connotation. This tests whether origin still governs modern use.", questions, key, attemptText);
+}
+
+function synonymAntonymGame(vocab, allTerms, seed, key, attemptText) {
+  const terms = seededShuffle(vocab, seed).slice(0, 8);
+  const questions = terms.map((entry, index) => {
+    const rival = seededShuffle(vocab.filter((item) => item.id !== entry.id), `${seed}-rival-${index}`)[0];
+    return selectQuestion(
+      index,
+      `<strong>Distinction Grid ${index + 1}</strong><br>Synonym: <strong>${entry.synonyms[0]}</strong>. Antonym: <strong>${entry.antonyms[0]}</strong>.<br><span class="meta">Near rival: ${rival.term}. Choose the concept whose connotation is governed by this exact pair.</span>`,
+      entry.term,
+      seededShuffle([entry.term, rival.term, ...allTerms.filter((term) => term !== entry.term && term !== rival.term).slice(0, 3)], `${seed}-dist-${index}`),
+      entry.id,
+      `${entry.term} is right because its positive and negative poles are ${entry.synonyms[0]} and ${entry.antonyms[0]}; ${rival.term} belongs to a different field of judgment.`,
+      "Do not choose by rough similarity. The synonym and antonym give the word's moral axis; the right term must fit both poles."
+    );
+  }).join("");
+
+  return gameCard("Synonym / Antonym Grid", "A distinction game: each item gives a moral axis and a near rival. Choose the word whose connotation fits the full axis.", questions, key, attemptText);
+}
+
+function argumentDuelGame(week, seed, key, attemptText) {
+  const questions = week.argumentDuels.flatMap((duel, index) => {
+    const weaker = duel.stronger === "A" ? "B" : "A";
+    return [
+      {
+        prompt: `<strong>Duel ${index + 1}</strong><br>A. ${duel.claimA}<br><br>B. ${duel.claimB}<br><span class="meta">Criteria: ${duel.criteria.join(", ")}</span>`,
+        answer: duel.stronger,
+        choices: ["A", "B"],
+        rationale: `Claim ${duel.stronger} is stronger because it better satisfies ${duel.criteria.join(", ")} without flattening the week's central distinction.`,
+        hint: "Choose the claim that preserves more distinctions. The weaker claim usually overstates, collapses a condition, or treats a partial truth as whole."
+      },
+      {
+        prompt: `<strong>Find the Weakness</strong><br>Why does Claim ${weaker} lose intellectual force?`,
+        answer: "It turns a partial truth into an absolute rule.",
+        choices: [
+          "It turns a partial truth into an absolute rule.",
+          "It uses too many historical examples.",
+          "It is wrong only because it is emotionally intense.",
+          "It cannot be expressed as a slogan."
+        ],
+        rationale: "High-level argument requires preserving proportion: partial truths become false when they claim the whole field.",
+        hint: "Look for absolutizing language. A weak argument often contains something true, but gives it tyrannical scope."
+      }
+    ];
+  }).map((question, index) =>
+    selectQuestion(index, question.prompt, question.answer, question.choices, question.answer, question.rationale, question.hint)
+  ).join("");
+
+  return gameCard("Argument Duel", "Each duel has two moves: choose the stronger claim, then diagnose why the weaker claim fails.", questions, key, attemptText);
+}
+
+function conceptBracketGame(week, seed, key, attemptText) {
+  const concepts = week.conceptBracket.concepts;
+  const rounds = week.conceptBracket.roundPrompts.flatMap((prompt, index) => {
+    const rival = seededShuffle(concepts.filter((concept) => concept !== week.conceptBracket.modelWinner), `${seed}-bracket-${index}`)[0];
+    return [
+      {
+        prompt: `<strong>Bracket Round ${index + 1}</strong><br>${prompt}<br><span class="meta">Final pairing: ${week.conceptBracket.modelWinner} vs ${rival}. Choose the concept with greater explanatory reach.</span>`,
+        answer: week.conceptBracket.modelWinner,
+        choices: [week.conceptBracket.modelWinner, rival],
+        rationale: week.conceptBracket.rationale,
+        hint: "The stronger concept should govern the rival, not merely compete beside it."
+      },
+      {
+        prompt: `<strong>Bracket City Explanation ${index + 1}</strong><br>Why does the losing concept fail to rule the full case?`,
+        answer: "It explains a pressure inside the case but not the standard that should govern it.",
+        choices: [
+          "It explains a pressure inside the case but not the standard that should govern it.",
+          "It has no relation to the week's theme.",
+          "It is only a vocabulary word and not a political idea.",
+          "It is too historically specific to matter philosophically."
+        ],
+        rationale: "The losing concept may be real, but the winning concept has higher jurisdiction over the case.",
+        hint: "Ask which concept has jurisdiction. Some ideas explain a motive; others judge the whole action."
+      }
+    ];
+  }).map((question, index) =>
+    selectQuestion(index, question.prompt, question.answer, seededShuffle(question.choices, `${seed}-bracket-q-${index}`), question.answer, question.rationale, question.hint)
+  ).join("");
+
+  return gameCard("Concept Bracket", "A true bracket: concept against concept, then an explanation of why the loser cannot govern the whole field.", rounds, key, attemptText);
 }
 
 function chunk(items, size) {
@@ -1333,7 +1484,7 @@ async function boot() {
   const params = new URLSearchParams(window.location.search);
   if (params.get("reset") === "1") {
     await resetToWeekOneDayOne();
-    window.history.replaceState({}, "", "./index.html?v=14");
+    window.history.replaceState({}, "", "./index.html?v=15");
   } else {
     state.progress = (await dbGet("local-user")) || clone(DEFAULT_PROGRESS);
   }
